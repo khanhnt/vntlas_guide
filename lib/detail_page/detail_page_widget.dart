@@ -73,7 +73,10 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                                         onPressed: () async {
                                           Navigator.pop(context);
                                         },
-                                        text: 'Back',
+                                        text:
+                                            FFLocalizations.of(context).getText(
+                                          'bg6diwlu' /* Back */,
+                                        ),
                                         icon: Icon(
                                           Icons.arrow_back,
                                           size: 15,
@@ -266,7 +269,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                           header: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(2, 0, 0, 0),
                             child: Text(
-                              'Quy định gỗ hợp pháp của Angola',
+                              FFLocalizations.of(context).getText(
+                                '90al7d9s' /* Quy định gỗ hợp pháp của Angol... */,
+                              ),
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
@@ -299,7 +304,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
                                 child: Text(
-                                  'Angola chưa tham gia đàm phán Hiệp định Đối tác Tự nguyện với Liên minh Châu Âu. Tuy nhiên, nước này có hệ thống pháp lý tương đối toàn diện, đảm bảo xác định, giảm thiểu rủi ro đối với các sản phẩm gỗ tuân thủ luật pháp quốc gia và giúp ngăn chặn việc nhập khẩu gỗ bất hợp pháp vào các quốc gia khác. Bằng cách nhận thức được các quy định pháp luật ở Angola được nêu rõ dưới đây, các cơ quan thực thi pháp luật và các nhà nhập khẩu có thể thực hiện các biện pháp kiểm soát và giảm thiểu rủi ro để ngăn chặn gỗ bị khai thác, vận chuyển và buôn bán bất hợp pháp từ Angola. Các nhà nhập khẩu và cơ quan xác minh có thể tham khảo hoặc sử dụng thông tin này trong việc thực hiện trách nhiệm giải trình.\n\n',
+                                  FFLocalizations.of(context).getText(
+                                    '8ifm7qdu' /* Angola chưa tham gia đàm phán ... */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -332,7 +339,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                     child: Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(2, 0, 0, 0),
                       child: Text(
-                        'Gợi ý xây dựng và thực hiện trách nhiệm giải trình cho các nhà nhập khẩu',
+                        FFLocalizations.of(context).getText(
+                          'qzrmlb0k' /* Gợi ý xây dựng và thực hiện tr... */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'Poppins',
                               fontSize: 16,
@@ -365,7 +374,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                             child: Text(
-                              'Trách nhiệm giải trình là gì?',
+                              FFLocalizations.of(context).getText(
+                                'nqwmrhvy' /* Trách nhiệm giải trình là gì? */,
+                              ),
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
@@ -398,7 +409,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
                                 child: Text(
-                                  '• Trách nhiệm giải trình là việc tổ chức, cá nhân tuân thủ các quy định pháp luật, chứng minh tính hợp pháp của gỗ và khả năng truy xuất nguồn gốc gỗ được mua bán.\n\n• Phạm vi của hệ thống trách nhiệm giải trình phụ thuộc vào số lượng và mức độ phức tạp của chuỗi cung ứng. Ví dụ: nhiều khâu trung gian và/ hoặc nhiều tổ chức, cá nhân tham gia chuỗi cung, nhiều loài gỗ và thành phần chủ gỗ\n',
+                                  FFLocalizations.of(context).getText(
+                                    '8sb59sr3' /* • Trách nhiệm giải trình là vi... */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -441,7 +454,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                             child: Text(
-                              'Phát triển hệ thống trách nhiệm giải trình',
+                              FFLocalizations.of(context).getText(
+                                'waddxffr' /* Phát triển hệ thống trách nhiệ... */,
+                              ),
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
@@ -471,7 +486,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                '• Phát triển một hệ thống với cam kết của lãnh đạo, các chính sách, quy trình, cơ cấu tổ chức, và mẫu biểu/ danh sách kiểm tra và những người chịu trách nhiệm chính.\n• Thu thập thông tin từ các chuỗi cung ứng.\n• Đánh giá các chuỗi cung ứng và đánh giá lỗ hổng/ rủi ro.\n• Thực hiện giảm thiểu rủi ro.\n• Lập và lưu trữ hồ sơ.\n',
+                                FFLocalizations.of(context).getText(
+                                  '4pc2twto' /* • Phát triển một hệ thống với ... */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -513,7 +530,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                             child: Text(
-                              'Thực hiện trách nhiệm giải trình',
+                              FFLocalizations.of(context).getText(
+                                '0nfwqsfp' /* Thực hiện trách nhiệm giải trì... */,
+                              ),
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
@@ -543,7 +562,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                '• Đánh giá tính hợp lệ của tài liệu về thời hạn, hiệu lực và thẩm quyền.\n• Kiểm tra mỗi tài liệu đã được cập nhật, đã được ký/ đóng dấu bởi cơ quan đủ thẩm quyền.\n• Đối chiếu tính nhất quán, logic giữa tài liệu này với tài liệu khác được cung cấp và với các sản phẩm thực tế (loại gỗ, khối lượng, địa điểm khai thác, v.v.) đang được bán/ xuất khẩu.\n• Các biện pháp cần thiết: yêu cầu bổ sung thông tin từ nhà cung cấp; tiến hành tham vấn các bên liên quan; kiểm định gỗ; cử cán bộ nghiệm thu nguồn gỗ; và/ hoặc thuê các bên thứ ba để kiểm toán thực địa.\n',
+                                FFLocalizations.of(context).getText(
+                                  '1hxwt71l' /* • Đánh giá tính hợp lệ của tài... */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -577,7 +598,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                   child: Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(2, 2, 2, 0),
                     child: Text(
-                      'Các tài liệu sau đây được chọn theo định nghĩa gỗ hợp pháp của Angola và/ hoặc các quy định pháp luật trong các giai đoạn khác nhau của chuỗi cung ứng.',
+                      FFLocalizations.of(context).getText(
+                        'kc3qwg3p' /* Các tài liệu sau đây được chọn... */,
+                      ),
                       textAlign: TextAlign.justify,
                       style: FlutterFlowTheme.of(context).bodyText2.override(
                             fontFamily: 'Poppins',
@@ -596,7 +619,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                     child: Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(2, 0, 0, 2),
                       child: AutoSizeText(
-                        'KHAI THÁC GỖ',
+                        FFLocalizations.of(context).getText(
+                          '9481tu68' /* KHAI THÁC GỖ */,
+                        ),
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'Poppins',
@@ -630,7 +655,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                             child: Text(
-                              'Quyền khai thác',
+                              FFLocalizations.of(context).getText(
+                                'zin7w3c9' /* Quyền khai thác */,
+                              ),
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
@@ -663,7 +690,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
                                 child: Text(
-                                  '• Giấy phép khai thác rừng hàng năm (Licenca de Exploração florestal)\nBằng chứng từ người có quyền khai thác các loại gỗ cụ thể, với khối lượng cho phép nhất định từ diện tích rừng xác định. Đối chiếu thông tin với Giấy chứng nhận xuất xứ và Giấy phép quá cảnh. Cần kiểm tra kỹ tên chủ Giấy phép và tỉnh được chỉ định, và đảm bảo Giấy phép đã được ký và đóng dấu của Tổng Giám đốc Viện Phát triển Lâm nghiệp ((Instituto de Desenvolvimento Florestal - IDF).\n\n• Báo cáo đánh giá tác động môi trường\nBáo cáo đánh giá tác động môi trường đã được Bộ Môi trường và Bộ Nông Lâm nghiệp phê duyệt. Cần kiểm tra tên của chủ dự án, chữ ký và đóng dấu, thời gian có hiệu lực và hoạt động giảm thiểu theo kế hoạch.\n',
+                                  FFLocalizations.of(context).getText(
+                                    'ntn8kprn' /* • Giấy phép khai thác rừng hàn... */,
+                                  ),
                                   textAlign: TextAlign.start,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
@@ -675,7 +704,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                                 ),
                               ),
                               Text(
-                                'Giấy phép khai thác rừng hàng năm (Licenca de Exploração florestal)',
+                                FFLocalizations.of(context).getText(
+                                  'juu65wvv' /* Giấy phép khai thác rừng hàng ... */,
+                                ),
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
@@ -728,7 +759,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                             child: Text(
-                              'Đảm bảo quản lý và lập kế hoạch khai thác',
+                              FFLocalizations.of(context).getText(
+                                'lvyuv1d9' /* Đảm bảo quản lý và lập kế hoạc... */,
+                              ),
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
@@ -758,7 +791,11 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                '• Kế hoạch quản lý rừng\nĐối với chủ hợp đồng nhượng quyền, Kế hoạch quản lý rừng chi tiết được IDF phê duyệt. Cần kiểm tra chữ ký, con dấu của đại diện IDF.\n\n• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm, phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập. Cần kiểm tra tên, địa chỉ chủ sở hữu nhượng quyền, địa điểm, diện tích khu vực nhượng quyền.\n\n• Kế hoạch khai thác \nCần đối chiếu các loài được khai thác, phương pháp khai thác, các loại sản phẩm hoặc sản phẩm tương đương trong khai thác.\n',
+                                FFLocalizations.of(context).getText(
+                                  '0jupqhp2' /* • Kế hoạch quản lý rừng
+Đối vớ... */
+                                  ,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -806,7 +843,9 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                             child: Text(
-                              'Tham vấn cộng đồng địa phương và tuân thủ các quyền tập quán',
+                              FFLocalizations.of(context).getText(
+                                'lhae9ye1' /* Tham vấn cộng đồng địa phương ... */,
+                              ),
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
@@ -836,7 +875,11 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                '• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm: Phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập.\n',
+                                FFLocalizations.of(context).getText(
+                                  'a3fzu830' /* • Bản đồ khu vực nhượng quyền
+... */
+                                  ,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(

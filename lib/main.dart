@@ -127,7 +127,7 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24,
             ),
             label: FFLocalizations.of(context).getText(
-              'vxfyi6bn' /* Copyright */,
+              'vxfyi6bn' /* Bản quyền */,
             ),
             tooltip: '',
           ),

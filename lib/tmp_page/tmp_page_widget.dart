@@ -28,7 +28,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Text(
-                    'Activity',
+                    FFLocalizations.of(context).getText(
+                      'ghgtx4za' /* Activity */,
+                    ),
                     style: FlutterFlowTheme.of(context).title1.override(
                           fontFamily: 'Lexend Deca',
                           color: Color(0xFF090F13),
@@ -45,7 +47,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Text(
-                    'All Activity from this past month.',
+                    FFLocalizations.of(context).getText(
+                      'zqio5to2' /* All Activity from this past mo... */,
+                    ),
                     style: FlutterFlowTheme.of(context).bodyText2.override(
                           fontFamily: 'Lexend Deca',
                           color: Color(0xFF8B97A2),
@@ -104,7 +108,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                '14, Sept. 2021',
+                                FFLocalizations.of(context).getText(
+                                  'hutvujbc' /* 14, Sept. 2021 */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -125,7 +131,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                'Created New User',
+                                FFLocalizations.of(context).getText(
+                                  '3iju1xom' /* Created New User */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .subtitle2
                                     .override(
@@ -139,7 +147,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(4, 0, 0, 0),
                                 child: Text(
-                                  'Andrew Daniels',
+                                  FFLocalizations.of(context).getText(
+                                    'ivnklrk3' /* Andrew Daniels */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .subtitle1
                                       .override(
@@ -173,7 +183,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8, 0, 0, 0),
                                   child: Text(
-                                    'Andrew F.',
+                                    FFLocalizations.of(context).getText(
+                                      '5k09o5hn' /* Andrew F. */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -242,7 +254,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                '14, Sept. 2021',
+                                FFLocalizations.of(context).getText(
+                                  'h6c6effe' /* 14, Sept. 2021 */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -263,7 +277,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                'Creted a Group',
+                                FFLocalizations.of(context).getText(
+                                  '914vevzu' /* Creted a Group */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .subtitle2
                                     .override(
@@ -277,7 +293,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(4, 0, 0, 0),
                                 child: Text(
-                                  'Design Team',
+                                  FFLocalizations.of(context).getText(
+                                    '7xwqx85c' /* Design Team */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .subtitle1
                                       .override(
@@ -311,7 +329,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8, 0, 0, 0),
                                   child: Text(
-                                    'Andrew F.',
+                                    FFLocalizations.of(context).getText(
+                                      'js13oed6' /* Andrew F. */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -380,7 +400,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                '14, Sept. 2021',
+                                FFLocalizations.of(context).getText(
+                                  'tgngig43' /* 14, Sept. 2021 */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -401,7 +423,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                'Created Invoice',
+                                FFLocalizations.of(context).getText(
+                                  '62krshzu' /* Created Invoice */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .subtitle2
                                     .override(
@@ -415,7 +439,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(4, 0, 0, 0),
                                 child: Text(
-                                  '#402 - Contractor',
+                                  FFLocalizations.of(context).getText(
+                                    'ii5u7zub' /* #402 - Contractor */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .subtitle1
                                       .override(
@@ -449,7 +475,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8, 0, 0, 0),
                                   child: Text(
-                                    'Andrew F.',
+                                    FFLocalizations.of(context).getText(
+                                      'yttfym92' /* Andrew F. */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -527,7 +555,9 @@ class _TmpPageWidgetState extends State<TmpPageWidget> {
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0, 24, 0, 0),
               child: Text(
-                'Beginning of Activity',
+                FFLocalizations.of(context).getText(
+                  'ykfnd4ib' /* Beginning of Activity */,
+                ),
                 style: FlutterFlowTheme.of(context).subtitle1.override(
                       fontFamily: 'Lexend Deca',
                       color: Color(0xFF151B1E),
