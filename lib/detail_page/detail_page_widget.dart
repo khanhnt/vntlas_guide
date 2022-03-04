@@ -344,6 +344,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                         ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'Poppins',
+                              color: FlutterFlowTheme.of(context).primaryText,
                               fontSize: 16,
                             ),
                       ),
@@ -625,6 +626,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'Poppins',
+                              color: FlutterFlowTheme.of(context).primaryText,
                               fontSize: 16,
                             ),
                       ),
