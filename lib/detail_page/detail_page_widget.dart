@@ -272,13 +272,11 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                               FFLocalizations.of(context).getText(
                                 '90al7d9s' /* Quy định gỗ hợp pháp của Angol... */,
                               ),
-                              style:
-                                  FlutterFlowTheme.of(context).title1.override(
-                                        fontFamily: 'Poppins',
-                                        color: FlutterFlowTheme.of(context)
-                                            .primaryText,
-                                        fontSize: 16,
-                                      ),
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.w600,
+                                fontSize: 16,
+                              ),
                             ),
                           ),
                           collapsed: Container(
@@ -344,7 +342,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                         ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'Poppins',
-                              color: FlutterFlowTheme.of(context).primaryText,
+                              color: Colors.black,
                               fontSize: 16,
                             ),
                       ),
@@ -381,8 +379,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
-                                        color: FlutterFlowTheme.of(context)
-                                            .primaryText,
+                                        color: Colors.black,
                                         fontSize: 14,
                                       ),
                             ),
@@ -461,8 +458,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
-                                        color: FlutterFlowTheme.of(context)
-                                            .primaryText,
+                                        color: Colors.black,
                                         fontSize: 14,
                                       ),
                             ),
@@ -537,8 +533,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
-                                        color: FlutterFlowTheme.of(context)
-                                            .primaryText,
+                                        color: Colors.black,
                                         fontSize: 14,
                                       ),
                             ),
@@ -605,6 +600,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                       textAlign: TextAlign.justify,
                       style: FlutterFlowTheme.of(context).bodyText2.override(
                             fontFamily: 'Poppins',
+                            color: Colors.black,
                             fontSize: 12,
                             fontStyle: FontStyle.italic,
                           ),
@@ -626,7 +622,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                         textAlign: TextAlign.center,
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'Poppins',
-                              color: FlutterFlowTheme.of(context).primaryText,
+                              color: Colors.black,
                               fontSize: 16,
                             ),
                       ),
@@ -663,8 +659,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
-                                        color: FlutterFlowTheme.of(context)
-                                            .primaryText,
+                                        color: Colors.black,
                                         fontSize: 14,
                                       ),
                             ),
@@ -767,8 +762,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
-                                        color: FlutterFlowTheme.of(context)
-                                            .primaryText,
+                                        color: Colors.black,
                                         fontSize: 14,
                                       ),
                             ),
@@ -851,8 +845,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                               style:
                                   FlutterFlowTheme.of(context).title1.override(
                                         fontFamily: 'Poppins',
-                                        color: FlutterFlowTheme.of(context)
-                                            .primaryText,
+                                        color: Colors.black,
                                         fontSize: 14,
                                       ),
                             ),
