@@ -150,8 +150,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Description',
     },
     'v26lgb95': {
-      'vi': 'Coutries',
-      'en': 'Home',
+      'vi': 'Danh sách',
+      'en': 'List',
     },
   },
   // GridAll
@@ -288,8 +288,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
     },
     '3jhdq7k1': {
-      'vi': 'Contact',
-      'en': 'Liên hệ',
+      'vi': 'Liên hệ',
+      'en': 'Contact',
     },
   },
   // DetailPage
@@ -400,8 +400,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
           '• Map of concession area\nFor annual forest exploitation license: a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). ',
     },
     '6gzw4h1z': {
-      'vi': 'Coutries',
-      'en': 'Đất nước',
+      'vi': 'Đất nước',
+      'en': 'Coutries',
     },
   },
 ].reduce((a, b) => a..addAll(b));

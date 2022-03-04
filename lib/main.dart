@@ -117,7 +117,7 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24,
             ),
             label: FFLocalizations.of(context).getText(
-              'v26lgb95' /* Coutries */,
+              'v26lgb95' /* Danh sách */,
             ),
             tooltip: '',
           ),
@@ -137,7 +137,7 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24,
             ),
             label: FFLocalizations.of(context).getText(
-              '3jhdq7k1' /* Contact */,
+              '3jhdq7k1' /* Liên hệ */,
             ),
             tooltip: '',
           )
