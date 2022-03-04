@@ -296,7 +296,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'bg6diwlu': {
       'vi': 'Back',
-      'en': '',
+      'en': 'Quay lại',
     },
     'p7lmwouw': {
       'vi': 'Tìm nước...',
