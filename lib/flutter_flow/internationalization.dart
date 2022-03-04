@@ -56,7 +56,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'x70g5tzd': {
       'vi': 'Home',
-      'en': '',
+      'en': 'Home',
     },
   },
   // ListAll
@@ -74,84 +74,84 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Angola',
     },
     'e6vmxfvh': {
-      'vi': 'Description',
-      'en': '',
+      'vi': 'Thông tin',
+      'en': 'Description',
     },
     'lekab7e9': {
       'vi': 'Cam pu chia',
       'en': 'Cambodia',
     },
     'ys8lqwvy': {
-      'vi': 'Description',
-      'en': '',
+      'vi': 'Thông tin',
+      'en': 'Description',
     },
     '5001l0vm': {
       'vi': 'Ca mơ run',
       'en': 'Cameroon',
     },
     'b50r877l': {
-      'vi': 'Description',
-      'en': '',
+      'vi': 'Thông tin',
+      'en': 'Description',
     },
     'idmwpzvq': {
       'vi': 'Cộng hòa Công gô',
       'en': 'Congo',
     },
     'he0si7ru': {
-      'vi': 'Description',
-      'en': '',
+      'vi': 'Thông tin',
+      'en': 'Description',
     },
     '9z6y4v4r': {
       'vi': 'Cộng hòa DC Công gô',
       'en': 'DRC',
     },
     'agkppb88': {
-      'vi': 'Description',
-      'en': '',
+      'vi': 'Thông tin',
+      'en': 'Description',
     },
     '8ioj1xrq': {
       'vi': 'Ga-bông',
       'en': 'Gabon',
     },
     '2024aa5f': {
-      'vi': 'Description',
-      'en': '',
+      'vi': 'Thông tin',
+      'en': 'Description',
     },
     'fv9ecoot': {
       'vi': 'Ga-na',
       'en': 'Ghana',
     },
     'a437v4jn': {
-      'vi': 'Description',
-      'en': '',
+      'vi': 'Thông tin',
+      'en': 'Description',
     },
     's6ov1v3x': {
       'vi': 'Guinée',
       'en': 'Guinea ',
     },
     'uwgfehri': {
-      'vi': 'Description',
-      'en': '',
+      'vi': 'Thông tin',
+      'en': 'Description',
     },
     'f7y1nc41': {
       'vi': 'Lào',
       'en': 'Laos',
     },
     'rdtu9fhy': {
-      'vi': 'Description',
-      'en': '',
+      'vi': 'Thông tin',
+      'en': 'Description',
     },
     'u1uywtec': {
       'vi': 'Nigeria',
       'en': 'Nigeria',
     },
     '3hflo66n': {
-      'vi': 'Description',
-      'en': '',
+      'vi': 'Thông tin',
+      'en': 'Description',
     },
     'v26lgb95': {
-      'vi': 'Home',
-      'en': '',
+      'vi': 'Coutries',
+      'en': 'Home',
     },
   },
   // GridAll
@@ -206,7 +206,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'vxfyi6bn': {
       'vi': 'Copyright',
-      'en': '',
+      'en': 'Bản quyền',
     },
   },
   // Main

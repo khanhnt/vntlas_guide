@@ -38,7 +38,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                     width: MediaQuery.of(context).size.width,
                     height: 140,
                     decoration: BoxDecoration(
-                      color: Color(0xFF9CCC65),
+                      color: FlutterFlowTheme.of(context).primaryBackground,
                       image: DecorationImage(
                         fit: BoxFit.cover,
                         image: Image.asset(
@@ -46,7 +46,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                         ).image,
                       ),
                       border: Border.all(
-                        color: Color(0xFFDBE2E7),
+                        color: FlutterFlowTheme.of(context).primaryBackground,
                       ),
                     ),
                     child: Padding(
@@ -260,6 +260,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                                     .bodyText1
                                     .override(
                                       fontFamily: 'Poppins',
+                                      color: Colors.black,
                                       fontSize: 16,
                                     ),
                               ),
@@ -311,6 +312,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                                     .bodyText1
                                     .override(
                                       fontFamily: 'Poppins',
+                                      color: Colors.black,
                                       fontSize: 16,
                                     ),
                               ),
@@ -362,6 +364,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                                     .bodyText1
                                     .override(
                                       fontFamily: 'Poppins',
+                                      color: Colors.black,
                                       fontSize: 16,
                                     ),
                               ),
@@ -413,6 +416,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                                     .bodyText1
                                     .override(
                                       fontFamily: 'Poppins',
+                                      color: Colors.black,
                                       fontSize: 16,
                                     ),
                               ),
@@ -464,6 +468,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                                     .bodyText1
                                     .override(
                                       fontFamily: 'Poppins',
+                                      color: Colors.black,
                                       fontSize: 16,
                                     ),
                               ),
@@ -515,6 +520,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                                     .bodyText1
                                     .override(
                                       fontFamily: 'Poppins',
+                                      color: Colors.black,
                                       fontSize: 16,
                                     ),
                               ),
@@ -566,6 +572,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                                     .bodyText1
                                     .override(
                                       fontFamily: 'Poppins',
+                                      color: Colors.black,
                                       fontSize: 16,
                                     ),
                               ),
@@ -617,6 +624,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                                     .bodyText1
                                     .override(
                                       fontFamily: 'Poppins',
+                                      color: Colors.black,
                                       fontSize: 16,
                                     ),
                               ),
@@ -668,6 +676,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                                     .bodyText1
                                     .override(
                                       fontFamily: 'Poppins',
+                                      color: Colors.black,
                                       fontSize: 16,
                                     ),
                               ),
@@ -719,6 +728,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                                     .bodyText1
                                     .override(
                                       fontFamily: 'Poppins',
+                                      color: Colors.black,
                                       fontSize: 16,
                                     ),
                               ),

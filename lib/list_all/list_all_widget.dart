@@ -293,7 +293,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                                                   0, 4, 4, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'e6vmxfvh' /* Description */,
+                                              'e6vmxfvh' /* Thông tin */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
@@ -407,7 +407,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                                                   0, 4, 4, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'ys8lqwvy' /* Description */,
+                                              'ys8lqwvy' /* Thông tin */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
@@ -521,7 +521,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                                                   0, 4, 4, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'b50r877l' /* Description */,
+                                              'b50r877l' /* Thông tin */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
@@ -635,7 +635,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                                                   0, 4, 4, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'he0si7ru' /* Description */,
+                                              'he0si7ru' /* Thông tin */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
@@ -749,7 +749,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                                                   0, 4, 4, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'agkppb88' /* Description */,
+                                              'agkppb88' /* Thông tin */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
@@ -863,7 +863,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                                                   0, 4, 4, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              '2024aa5f' /* Description */,
+                                              '2024aa5f' /* Thông tin */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
@@ -977,7 +977,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                                                   0, 4, 4, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'a437v4jn' /* Description */,
+                                              'a437v4jn' /* Thông tin */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
@@ -1091,7 +1091,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                                                   0, 4, 4, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'uwgfehri' /* Description */,
+                                              'uwgfehri' /* Thông tin */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
@@ -1205,7 +1205,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                                                   0, 4, 4, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'rdtu9fhy' /* Description */,
+                                              'rdtu9fhy' /* Thông tin */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
@@ -1319,7 +1319,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                                                   0, 4, 4, 0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              '3hflo66n' /* Description */,
+                                              '3hflo66n' /* Thông tin */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2
