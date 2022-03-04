@@ -75,7 +75,7 @@ class _DetailPageWidgetState extends State<DetailPageWidget> {
                                         },
                                         text:
                                             FFLocalizations.of(context).getText(
-                                          'bg6diwlu' /* Back */,
+                                          'bg6diwlu' /* Quay lại */,
                                         ),
                                         icon: Icon(
                                           Icons.arrow_back,
