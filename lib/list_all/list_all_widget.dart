@@ -1,4 +1,4 @@
-import '../detail_page/detail_page_widget.dart';
+import '../detail_page_angola/detail_page_angola_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -222,7 +222,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => DetailPageWidget(),
+                              builder: (context) => DetailPageAngolaWidget(),
                             ),
                           );
                         },

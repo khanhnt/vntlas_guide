@@ -1,4 +1,3 @@
-import '../flutter_flow/flutter_flow_animations.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../welcome_home/welcome_home_widget.dart';
@@ -14,21 +13,7 @@ class HomeWidget extends StatefulWidget {
   _HomeWidgetState createState() => _HomeWidgetState();
 }
 
-class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
-  final animationsMap = {
-    'containerOnPageLoadAnimation': AnimationInfo(
-      trigger: AnimationTrigger.onPageLoad,
-      duration: 1000,
-      delay: 1000,
-      fadeIn: true,
-      initialState: AnimationState(
-        opacity: 0,
-      ),
-      finalState: AnimationState(
-        opacity: 1,
-      ),
-    ),
-  };
+class _HomeWidgetState extends State<HomeWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -43,34 +28,13 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
         ),
       );
     });
-
-    startPageLoadAnimations(
-      animationsMap.values
-          .where((anim) => anim.trigger == AnimationTrigger.onPageLoad),
-      this,
-    );
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      backgroundColor: Color(0xFF148308),
-      body: GestureDetector(
-        onTap: () => FocusScope.of(context).unfocus(),
-        child: Container(
-          width: double.infinity,
-          height: double.infinity,
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Color(0xFF148308), Color(0xFFD4A794)],
-              stops: [0, 1],
-              begin: AlignmentDirectional(1, -1),
-              end: AlignmentDirectional(-1, 1),
-            ),
-          ),
-        ).animated([animationsMap['containerOnPageLoadAnimation']]),
-      ),
+      backgroundColor: Color(0xFF8BC34A),
     );
   }
 }
