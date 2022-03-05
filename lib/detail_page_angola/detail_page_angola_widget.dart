@@ -1401,7 +1401,7 @@ Giấy phép CI... */
                                       type: PageTransitionType.fade,
                                       child: FlutterFlowExpandedImageView(
                                         image: Image.asset(
-                                          'assets/images/mcatd_1.png',
+                                          'assets/images/Angola_4.png',
                                           fit: BoxFit.contain,
                                         ),
                                         allowRotation: false,
@@ -1415,7 +1415,7 @@ Giấy phép CI... */
                                   tag: 'imageTag6',
                                   transitionOnUserGestures: true,
                                   child: Image.asset(
-                                    'assets/images/mcatd_1.png',
+                                    'assets/images/Angola_4.png',
                                     fit: BoxFit.cover,
                                   ),
                                 ),
