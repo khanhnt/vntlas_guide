@@ -1,6 +1,6 @@
 import '../detail_page_angola/detail_page_angola_widget.dart';
+import '../detail_page_angola_2/detail_page_angola2_widget.dart';
 import '../detail_page_cameroon/detail_page_cameroon_widget.dart';
-import '../detail_page_campuchia/detail_page_campuchia_widget.dart';
 import '../detail_page_congo/detail_page_congo_widget.dart';
 import '../detail_page_d_r_c/detail_page_d_r_c_widget.dart';
 import '../detail_page_gabon/detail_page_gabon_widget.dart';
@@ -362,7 +362,7 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => DetailPageCampuchiaWidget(),
+                              builder: (context) => DetailPageAngola2Widget(),
                             ),
                           );
                         },
