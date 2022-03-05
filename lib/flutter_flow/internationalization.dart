@@ -302,17 +302,18 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '8ifm7qdu': {
       'vi':
-          'Angola chưa tham gia đàm phán Hiệp định Đối tác Tự nguyện với Liên minh Châu Âu. Tuy nhiên, nước này có hệ thống pháp lý tương đối toàn diện, đảm bảo xác định, giảm thiểu rủi ro đối với các sản phẩm gỗ tuân thủ luật pháp quốc gia và giúp ngăn chặn việc nhập khẩu gỗ bất hợp pháp vào các quốc gia khác. Bằng cách nhận thức được các quy định pháp luật ở Angola được nêu rõ dưới đây, các cơ quan thực thi pháp luật và các nhà nhập khẩu có thể thực hiện các biện pháp kiểm soát và giảm thiểu rủi ro để ngăn chặn gỗ bị khai thác, vận chuyển và buôn bán bất hợp pháp từ Angola. Các nhà nhập khẩu và cơ quan xác minh có thể tham khảo hoặc sử dụng thông tin này trong việc thực hiện trách nhiệm giải trình.\n\n',
+          'Angola chưa tham gia đàm phán Hiệp định Đối tác Tự nguyện với Liên minh Châu Âu. Tuy nhiên, nước này có hệ thống pháp lý tương đối toàn diện, đảm bảo xác định, giảm thiểu rủi ro đối với các sản phẩm gỗ tuân thủ luật pháp quốc gia và giúp ngăn chặn việc nhập khẩu gỗ bất hợp pháp vào các quốc gia khác. Bằng cách nhận thức được các quy định pháp luật ở Angola được nêu rõ dưới đây, các cơ quan thực thi pháp luật và các nhà nhập khẩu có thể thực hiện các biện pháp kiểm soát và giảm thiểu rủi ro để ngăn chặn gỗ bị khai thác, vận chuyển và buôn bán bất hợp pháp từ Angola. Các nhà nhập khẩu và cơ quan xác minh có thể tham khảo hoặc sử dụng thông tin này trong việc thực hiện trách nhiệm giải trình.\n',
       'en':
-          'Angola has not yet entered into negotiations for a Voluntary Partnership Agreement with the European Union. However, the country has a relatively comprehensive legal system that ensures identification and mitigation of risks for wood products in compliance with national laws and helping prevent the import of illegal timber into other countries. By being aware of the legal requirements in Angola highlighted below, law enforcement agencies and importers can implement control and risk mitigation measures to prevent timber being illegally harvested, transported and traded. Importers and verification agencies may refer to or use this definition in implementing due diligence.',
+          'Angola has not yet entered into negotiations for a Voluntary Partnership Agreement with the European Union. However, the country has a relatively comprehensive legal system that ensures identification and mitigation of risks for wood products in compliance with national laws and helping prevent the import of illegal timber into other countries. By being aware of the legal requirements in Angola highlighted below, law enforcement agencies and importers can implement control and risk mitigation measures to prevent timber being illegally harvested, transported and traded. Importers and verification agencies may refer to or use this definition in implementing due diligence.\n',
     },
-    'lgto8vk2': {
+    'eqwym9ws': {
       'vi':
           'Gợi ý xây dựng và thực hiện trách nhiệm giải trình cho các nhà nhập khẩu',
-      'en': '',
+      'en':
+          'Suggestions for developing and implementing due diligence for importers',
     },
-    '36z610gw': {
-      'vi': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
+    'vwxbllk4': {
+      'vi': '',
       'en': '',
     },
     '5j4bcnbp': {
@@ -351,12 +352,12 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en':
           'The following documents are selected in accordance with Angola’s legal definition and/or legal requirements in different stages of the supply chain.',
     },
-    'w3f9w6xj': {
+    '32xiwx12': {
       'vi': 'KHAI THÁC GỖ',
-      'en': '',
+      'en': 'HARVESTING TIMBER',
     },
-    'f9xzxd4j': {
-      'vi': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
+    '8pc31klh': {
+      'vi': '',
       'en': '',
     },
     'ofr2dg1g': {
@@ -394,14 +395,14 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'vi':
           '• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm: Phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập.\n',
       'en':
-          '• Map of concession area\nFor annual forest exploitation license: a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). ',
+          '• Map of concession area\nFor annual forest exploitation license: a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). \n',
     },
-    'ieuw8bv5': {
+    'vtktrd52': {
       'vi': 'VẬN TẢI VÀ THƯƠNG MẠI GỖ',
-      'en': '',
+      'en': 'TRADE & TRANSPORT ',
     },
-    '2xr40o5r': {
-      'vi': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
+    'ogf8bt1f': {
+      'vi': '',
       'en': '',
     },
     'pb568nnr': {
@@ -412,9 +413,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '6tpf6bwx': {
       'vi':
-          '• Giấy chứng nhận xuất xứ\nCần đối chiếu thông tin với Giấy phép khai thác rừng và Giấy phép quá cảnh, cần kiểm tra kỹ tỉnh xuất xứ, khối lượng và loài cây, Giấy chứng nhận xuất xứ phải được ký bởi Viện trưởng Viện Phát triển Lâm nghiệp cấp tỉnh cũng như nhân viên điểm kiểm tra hoặc nhân viên kho.',
+          '• Giấy chứng nhận xuất xứ\nCần đối chiếu thông tin với Giấy phép khai thác rừng và Giấy phép quá cảnh, cần kiểm tra kỹ tỉnh xuất xứ, khối lượng và loài cây, Giấy chứng nhận xuất xứ phải được ký bởi Viện trưởng Viện Phát triển Lâm nghiệp cấp tỉnh cũng như nhân viên điểm kiểm tra hoặc nhân viên kho.\n',
       'en':
-          '•\tCertificate of Origin \nCross-check with information on the Forest Exploitation License and Transit Permit, carefully check the province of origin and the volume and species of trees, and ensure the Certificate of Origin has been signed by the Provincial Head of the IDF as well as check point or warehouse personnel. ',
+          '•\tCertificate of Origin \nCross-check with information on the Forest Exploitation License and Transit Permit, carefully check the province of origin and the volume and species of trees, and ensure the Certificate of Origin has been signed by the Provincial Head of the IDF as well as check point or warehouse personnel. \n',
     },
     '2ui6xz6m': {
       'vi': 'Giấy chứng nhận xuất xứ',
@@ -422,9 +423,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '2g25vbp7': {
       'vi':
-          '  \t• Giấy phép quá cảnh\nCần đối chiếu thông tin với Giấy chứng nhận xuất xứ và Giấy phép khai thác rừng, cần kiểm tra loài cây và khối lượng được quy định, và đảm bảo ngày còn hiệu lực và Giấy phép quá cảnh đã được ký bởi nhân viên kho và Viện trưởng Viện Phát triển Lâm nghiệp cấp tỉnh được đóng dấu của IDF.\n\n \t• Giấy phép xuất khẩu (Documento Único Provisório)\nCần đối chiếu với các tài liệu chuỗi cung ứng khác và đảm bảo Giấy phép đã được ký bởi Cục trưởng Cục Ngoại thương, Bộ Công Thương (Ministério da Indústria e Comércio). Cần kiểm tra chéo thông tin khối lượng sản phẩm, mô tả, phương tiện vận chuyển, chủng loại, giá trị hàng hóa của nhà xuất khẩu, nhà nhập khẩu trên giấy phép xuất khẩu với các tài liệu khác.',
+          '  \t• Giấy phép quá cảnh\nCần đối chiếu thông tin với Giấy chứng nhận xuất xứ và Giấy phép khai thác rừng, cần kiểm tra loài cây và khối lượng được quy định, và đảm bảo ngày còn hiệu lực và Giấy phép quá cảnh đã được ký bởi nhân viên kho và Viện trưởng Viện Phát triển Lâm nghiệp cấp tỉnh được đóng dấu của IDF.\n\n \t• Giấy phép xuất khẩu (Documento Único Provisório)\nCần đối chiếu với các tài liệu chuỗi cung ứng khác và đảm bảo Giấy phép đã được ký bởi Cục trưởng Cục Ngoại thương, Bộ Công Thương (Ministério da Indústria e Comércio). Cần kiểm tra chéo thông tin khối lượng sản phẩm, mô tả, phương tiện vận chuyển, chủng loại, giá trị hàng hóa của nhà xuất khẩu, nhà nhập khẩu trên giấy phép xuất khẩu với các tài liệu khác.\n',
       'en':
-          '•\tTransit Permit \nCross-check with information on the Certificate of Origin and Forest Exploitation License, check the tree species and volumes specified, and ensure the date is valid and the Permit has been signed by warehouse personnel and signed and stamped by the Provincial Head of the IDF.\n\n•\tExport License (Documento Único Provisório)\nCross-check with other supply chain documents and ensure the License has been signed by the Director of External Trade, Ministry of Industry and Trade (Ministério da Indústria e Comércio). Cross-check information on product volume, description, means of transport, type and value of goods of exporters and importers on export License with other documents.',
+          '•\tTransit Permit \nCross-check with information on the Certificate of Origin and Forest Exploitation License, check the tree species and volumes specified, and ensure the date is valid and the Permit has been signed by warehouse personnel and signed and stamped by the Provincial Head of the IDF.\n\n•\tExport License (Documento Único Provisório)\nCross-check with other supply chain documents and ensure the License has been signed by the Director of External Trade, Ministry of Industry and Trade (Ministério da Indústria e Comércio). Cross-check information on product volume, description, means of transport, type and value of goods of exporters and importers on export License with other documents.\n',
     },
     'hyzaw4i0': {
       'vi': 'Giấy phép xuất khẩu (Documento Único Provisório)',
@@ -438,20 +439,20 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '0vsib61k': {
       'vi':
-          '• Giấy phép CITES\nGiấy phép CITES phải do Cơ quan quản lý CITES quốc gia của Bộ Môi trường cấp. Cần kiểm tra chữ ký và dấu của Cơ quan CITES, tên chữ ký người nộp đơn/ người xin giấy phép xuất khẩu, tên cảng xuất khẩu. ',
+          '• Giấy phép CITES\nGiấy phép CITES phải do Cơ quan quản lý CITES quốc gia của Bộ Môi trường cấp. Cần kiểm tra chữ ký và dấu của Cơ quan CITES, tên chữ ký người nộp đơn/ người xin giấy phép xuất khẩu, tên cảng xuất khẩu. \n',
       'en':
-          '• CITES Permit\nCITES permits are issued by the National CITES Management Authority of the Ministry of Environment. Check the signature and seal of the CITES Management Authority, the name of the applicant / applicant\'s signature for the export permit, the name of the port of export.',
+          '• CITES Permit\nCITES permits are issued by the National CITES Management Authority of the Ministry of Environment. Check the signature and seal of the CITES Management Authority, the name of the applicant / applicant\'s signature for the export permit, the name of the port of export.\n',
     },
     'acjuuej9': {
       'vi': 'Giấy phép CITES',
       'en': 'CITES Permit',
     },
-    'v6xc6otb': {
+    'no7zu197': {
       'vi': 'CHẾ BIẾN GỖ',
-      'en': '',
+      'en': 'PROCESSING ',
     },
-    'yc78bfob': {
-      'vi': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
+    'pvr514j2': {
+      'vi': '',
       'en': '',
     },
     '3rj19lgo': {
@@ -462,9 +463,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '2vj16jsb': {
       'vi':
-          '• Giấy phép môi trường vận hành \nGiấy phép môi trường vận hành phải do Bộ trưởng Bộ Môi trường hoặc người được ủy quyền ký và đóng dấu của Bộ Môi trường. Cần kiểm tra tài liệu, chữ ký và con dấu, thời hạn hiệu lực, nơi phát hành của giấy phép. ',
+          '• Giấy phép môi trường vận hành \nGiấy phép môi trường vận hành phải do Bộ trưởng Bộ Môi trường hoặc người được ủy quyền ký và đóng dấu của Bộ Môi trường. Cần kiểm tra tài liệu, chữ ký và con dấu, thời hạn hiệu lực, nơi phát hành của giấy phép. \n',
       'en':
-          '• Environmental Operating License (Licença Ambiental de Operação)  \nThe environmental operating license is signed by the Minister of Environment or an authorized person and stamped by the Ministry of Environment. Check the document, signature and seal, validity of date, place of issue of the license.',
+          '• Environmental Operating License (Licença Ambiental de Operação)  \nThe environmental operating license is signed by the Minister of Environment or an authorized person and stamped by the Ministry of Environment. Check the document, signature and seal, validity of date, place of issue of the license.\n',
     },
     '2lejgy0p': {
       'vi': 'Giấy phép môi trường vận hành  (Licença Ambiental de Operação) ',
@@ -472,9 +473,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '642rw7pg': {
       'vi':
-          '• Giấy phép thương mại\nGiấy phép thương mại phải do Tổng cục trưởng Tổng cục Nội thương, Bộ Công thương ký và đóng dấu. Cần kiểm tra tài liệu, chữ ký và con dấu, thời hạn hiệu lực, nơi phát hành của giấy phép. ',
+          '• Giấy phép thương mại\nGiấy phép thương mại phải do Tổng cục trưởng Tổng cục Nội thương, Bộ Công thương ký và đóng dấu. Cần kiểm tra tài liệu, chữ ký và con dấu, thời hạn hiệu lực, nơi phát hành của giấy phép.\n ',
       'en':
-          '• Commercial license\nThe commercial license is signed and stamped by the Director General of the General Department of Internal Trade, Ministry of Industry and Trade. Check the document, signature and seal, validity of date, place of issue of the license.',
+          '• Commercial license\nThe commercial license is signed and stamped by the Director General of the General Department of Internal Trade, Ministry of Industry and Trade. Check the document, signature and seal, validity of date, place of issue of the license.\n',
     },
     'jyf4i2zs': {
       'vi':
@@ -484,9 +485,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '73hbk5c0': {
       'vi':
-          '• Báo cáo Sở An toàn và Vệ sinh lao động\nNhà nhập khẩu có thể yêu cầu nhà xuất khẩu gỗ cung cấp báo cáo Sở an toàn và vệ sinh lao động đối với các công ty có từ 50 nhân viên trở lên.',
+          '• Báo cáo Sở An toàn và Vệ sinh lao động\nNhà nhập khẩu có thể yêu cầu nhà xuất khẩu gỗ cung cấp báo cáo Sở an toàn và vệ sinh lao động đối với các công ty có từ 50 nhân viên trở lên.\n',
       'en':
-          '•\tOccupational Health and Safety Services Reports \nImporters can request monthly, quarterly and annual reports for companies with 50 or more employees.',
+          '•\tOccupational Health and Safety Services Reports \nImporters can request monthly, quarterly and annual reports for companies with 50 or more employees.\n',
     },
     'xcibtvul': {
       'vi':
@@ -496,16 +497,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'p6n6uspg': {
       'vi':
-          '• Thư thông báo an sinh xã hội\nThư thông báo an sinh xã hội phải do Bộ Công chính – Lao động và An sinh xã hội (Ministério da Aministração Pública, Emprego y Segurança Social - MAPESS) ấn hành. Cần kiểm tra số lượng công nhân có thu nhập so với đóng góp an sinh xã hội, xác minh tại chỗ hồ sơ thanh toán phù hợp với Thư thông báo.',
+          '• Thư thông báo an sinh xã hội\nThư thông báo an sinh xã hội phải do Bộ Công chính – Lao động và An sinh xã hội (Ministério da Aministração Pública, Emprego y Segurança Social - MAPESS) ấn hành. Cần kiểm tra số lượng công nhân có thu nhập so với đóng góp an sinh xã hội, xác minh tại chỗ hồ sơ thanh toán phù hợp với Thư thông báo.\n',
       'en':
-          '• The social security award letter \nThe social security award letter is published by the Ministry of Public Administration, Employment and Social Security (Ministério da Aministração Pública, Emprego y Segurança Social - MAPESS). Check the number of workers with income compared to social security contributions, verify on-site payment records in accordance with the award letter. ',
+          '• The social security award letter \nThe social security award letter is published by the Ministry of Public Administration, Employment and Social Security (Ministério da Aministração Pública, Emprego y Segurança Social - MAPESS). Check the number of workers with income compared to social security contributions, verify on-site payment records in accordance with the award letter. \n',
     },
-    'syqaykv5': {
+    'ahzvrhl7': {
       'vi': 'CÁC VẤN ĐỀ XUYÊN SUỐT',
-      'en': '',
+      'en': 'CROSS-CUTTING ISSUES',
     },
-    'k8onunbz': {
-      'vi': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
+    '16225s1f': {
+      'vi': '',
       'en': '',
     },
     'nhsux2lr': {
@@ -514,9 +515,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'ncy0904q': {
       'vi':
-          '• Hợp đồng lao động \nHợp đồng lao động được áp dụng cho một số loại công việc nhất định. Xác minh tại chỗ người lao động có hợp đồng lao động phù hợp lĩnh vực cho phép.\n\n• Thư thông báo an sinh xã hội\nThư thông báo an sinh xã hội do MAPESS ấn hành.\n\n• Báo cáo Sở An toàn và Vệ sinh lao động\nNhà nhập khẩu có thể yêu cầu nhà xuất khẩu gỗ cung cấp báo cáo Sở an toàn và vệ sinh lao động đối với các công ty có từ 50 nhân viên trở lên.',
+          '• Hợp đồng lao động \nHợp đồng lao động được áp dụng cho một số loại công việc nhất định. Xác minh tại chỗ người lao động có hợp đồng lao động phù hợp lĩnh vực cho phép.\n\n• Thư thông báo an sinh xã hội\nThư thông báo an sinh xã hội do MAPESS ấn hành.\n\n• Báo cáo Sở An toàn và Vệ sinh lao động\nNhà nhập khẩu có thể yêu cầu nhà xuất khẩu gỗ cung cấp báo cáo Sở an toàn và vệ sinh lao động đối với các công ty có từ 50 nhân viên trở lên.\n',
       'en':
-          '• Labor contract\nLabor contract is applicable to certain types of work. Verify on-site the employee has a suitable labor contract in the sector.\n\n\t• The award letter social security\nThe award letter social security is published by the MAPESS.\n\n• Occupational Health and Safety Services Reports \nImporters can request Occupational Health and Safety Services Reports for companies with 50 or more employees.',
+          '• Labor contract\nLabor contract is applicable to certain types of work. Verify on-site the employee has a suitable labor contract in the sector.\n\n\t• The award letter social security\nThe award letter social security is published by the MAPESS.\n\n• Occupational Health and Safety Services Reports \nImporters can request Occupational Health and Safety Services Reports for companies with 50 or more employees.\n',
     },
     'h21s0yzn': {
       'vi':
@@ -2699,7 +2700,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Coutries',
     },
   },
-  // DetailPage_AngolaCopy
+  // DetailPage_Angola_2
   {
     'a5kir5sq': {
       'vi': 'Quay lại',
@@ -2723,40 +2724,36 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en':
           'Angola has not yet entered into negotiations for a Voluntary Partnership Agreement with the European Union. However, the country has a relatively comprehensive legal system that ensures identification and mitigation of risks for wood products in compliance with national laws and helping prevent the import of illegal timber into other countries. By being aware of the legal requirements in Angola highlighted below, law enforcement agencies and importers can implement control and risk mitigation measures to prevent timber being illegally harvested, transported and traded. Importers and verification agencies may refer to or use this definition in implementing due diligence.',
     },
-    'lzcpftc5': {
+    'pig9gglp': {
       'vi':
           'Gợi ý xây dựng và thực hiện trách nhiệm giải trình cho các nhà nhập khẩu',
-      'en': '',
+      'en': 'TRADE & TRANSPORT',
     },
-    '8udmlsv6': {
-      'vi': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
-      'en': '',
-    },
-    '8pd0jlhw': {
+    'ixa56nwg': {
       'vi': 'Trách nhiệm giải trình là gì?',
       'en': 'Due diligence and complexity',
     },
-    '97v0vqd0': {
+    '82eqyorj': {
       'vi':
           '• Trách nhiệm giải trình là việc tổ chức, cá nhân tuân thủ các quy định pháp luật, chứng minh tính hợp pháp của gỗ và khả năng truy xuất nguồn gốc gỗ được mua bán.\n\n• Phạm vi của hệ thống trách nhiệm giải trình phụ thuộc vào số lượng và mức độ phức tạp của chuỗi cung ứng. Ví dụ: nhiều khâu trung gian và/ hoặc nhiều tổ chức, cá nhân tham gia chuỗi cung, nhiều loài gỗ và thành phần chủ gỗ\n',
       'en':
           '•\tDue diligence is the compliance of organizations and individuals with legal regulations in terms of tracking timber origin and proving the legality of traded timber products.\n\n•\tThe scope of a due diligence system depends on the number and the complexity of supply chains, e.g. multi-middleman and/or many organizations and individuals participating in the supply chain, many timber species and timber owners.\n',
     },
-    'hb320tbj': {
+    '860716qh': {
       'vi': 'Phát triển hệ thống trách nhiệm giải trình',
       'en': 'Developing due diligence systems',
     },
-    'frlm8e3n': {
+    'okbmi2i4': {
       'vi':
           '• Phát triển một hệ thống với cam kết của lãnh đạo, các chính sách, quy trình, cơ cấu tổ chức, và mẫu biểu/ danh sách kiểm tra và những người chịu trách nhiệm chính.\n• Thu thập thông tin từ các chuỗi cung ứng.\n• Đánh giá các chuỗi cung ứng và đánh giá lỗ hổng/ rủi ro.\n• Thực hiện giảm thiểu rủi ro.\n• Lập và lưu trữ hồ sơ.\n',
       'en':
           '•\tDevelop a system with leadership commitment, policies, procedures, organizational structures, templates/checklists and key responsible persons.\n•\tGather information from supply chains.\n•\tEvaluate supply chains and gaps/risk assessments.\n•\tImplement risk mitigation\n•\tSet up and store documents. \n',
     },
-    'ixvmuxnu': {
+    'wl7hvssa': {
       'vi': 'Thực hiện trách nhiệm giải trình',
       'en': 'Implementing due diligence',
     },
-    't2v5ydoh': {
+    'pcds7r43': {
       'vi':
           '• Đánh giá tính hợp lệ của tài liệu về thời hạn, hiệu lực và thẩm quyền.\n• Kiểm tra mỗi tài liệu đã được cập nhật, đã được ký/ đóng dấu bởi cơ quan đủ thẩm quyền.\n• Đối chiếu tính nhất quán, logic giữa tài liệu này với tài liệu khác được cung cấp và với các sản phẩm thực tế (loại gỗ, khối lượng, địa điểm khai thác, v.v.) đang được bán/ xuất khẩu.\n• Các biện pháp cần thiết: yêu cầu bổ sung thông tin từ nhà cung cấp; tiến hành tham vấn các bên liên quan; kiểm định gỗ; cử cán bộ nghiệm thu nguồn gỗ; và/ hoặc thuê các bên thứ ba để kiểm toán thực địa.\n',
       'en':
@@ -2768,47 +2765,42 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en':
           'The following documents are selected in accordance with Angola’s legal definition and/or legal requirements in different stages of the supply chain.',
     },
-    '2j5w0n0m': {
-      'vi':
-          'Gợi ý xây dựng và thực hiện trách nhiệm giải trình cho các nhà nhập khẩu',
-      'en': '',
+    'yhve91fz': {
+      'vi': 'KHAI THÁC GỖ',
+      'en': 'TRADE & TRANSPORT',
     },
-    'c962a90o': {
-      'vi': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
-      'en': '',
-    },
-    'xa96yyzx': {
+    '7zpficv3': {
       'vi': 'Quyền khai thác',
       'en': 'Harvesting rights',
     },
-    '0g0i0ajg': {
+    '3dgkq8hv': {
       'vi':
           '• Giấy phép khai thác rừng hàng năm (Licenca de Exploração florestal)\nBằng chứng từ người có quyền khai thác các loại gỗ cụ thể, với khối lượng cho phép nhất định từ diện tích rừng xác định. Đối chiếu thông tin với Giấy chứng nhận xuất xứ và Giấy phép quá cảnh. Cần kiểm tra kỹ tên chủ Giấy phép và tỉnh được chỉ định, và đảm bảo Giấy phép đã được ký và đóng dấu của Tổng Giám đốc Viện Phát triển Lâm nghiệp ((Instituto de Desenvolvimento Florestal - IDF).\n\n• Báo cáo đánh giá tác động môi trường\nBáo cáo đánh giá tác động môi trường đã được Bộ Môi trường và Bộ Nông Lâm nghiệp phê duyệt. Cần kiểm tra tên của chủ dự án, chữ ký và đóng dấu, thời gian có hiệu lực và hoạt động giảm thiểu theo kế hoạch.\n',
       'en':
           '•\tAnnual forest exploitation license (Licenca de Exploração florestal)   \nProvide verifier from the holder of the right to harvest specific timber species with a certain allowable volume from a defined forest area. Cross-check information with the Certificate of Origin and the Transit Permit. Carefully check the name of the License holder and the province specified, and ensure the License has been signed and stamped by the Director General of the Forestry Development Institute (Instituto de Desenvolvimento Florestal - IDF).\n\n• Environmental impact assessment report \nThe environmental impact assessment report has been approved by the Ministry of Environment and the Ministry of Agriculture and Forestry. Check project owner\'s name, signature and stamp, date is valid and planned mitigation action.\n',
     },
-    'qlrvytt4': {
+    'h8s12j37': {
       'vi':
           'Giấy phép khai thác rừng hàng năm (Licenca de Exploração florestal)',
       'en':
           'Annual forest exploitation license (Licenca de Exploração florestal) ',
     },
-    'vwz1xzgd': {
+    'ttkmfpdf': {
       'vi': 'Đảm bảo quản lý và lập kế hoạch khai thác',
       'en': 'Assure harvesting management and planning ',
     },
-    'qxbea612': {
+    'sm05to25': {
       'vi':
           '• Kế hoạch quản lý rừng\nĐối với chủ hợp đồng nhượng quyền, Kế hoạch quản lý rừng chi tiết được IDF phê duyệt. Cần kiểm tra chữ ký, con dấu của đại diện IDF.\n\n• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm, phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập. Cần kiểm tra tên, địa chỉ chủ sở hữu nhượng quyền, địa điểm, diện tích khu vực nhượng quyền.\n\n• Kế hoạch khai thác \nCần đối chiếu các loài được khai thác, phương pháp khai thác, các loại sản phẩm hoặc sản phẩm tương đương trong khai thác.\n',
       'en':
           '• Forest management plan\nFor holder of concession contract, a detailed forest management plan is approved by the IDF. Check signature, seal of IDF’s representative.\n\n• Map of concession area\nFor annual forest exploitation license, a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). Check the concession owner\'s name, address, location and concession area.\n\n• Harvesting plan \nCross-check species harvested, methods of harvesting, types of products or equivalent products in the harvesting.\n',
     },
-    's4ynmhgj': {
+    'ycg9tr42': {
       'vi': 'Tham vấn cộng đồng địa phương và tuân thủ các quyền tập quán',
       'en':
           'Consultation with local communities and adherence to common law rights',
     },
-    '1hcop9xk': {
+    'uecsejs7': {
       'vi':
           '• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm: Phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập.\n',
       'en':
@@ -2818,45 +2810,45 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'vi': 'VẬN TẢI VÀ THƯƠNG MẠI GỖ',
       'en': 'TRADE & TRANSPORT',
     },
-    'o2xqpl6y': {
+    'xlhnl64l': {
       'vi':
           'Thực hiện tuân thủ đầy đủ các thủ tục vận chuyển và kiểm tra xuất khẩu gỗ',
       'en':
           'Implement full compliance with timber transport and export inspections',
     },
-    'ettm65wb': {
+    'exbfd78n': {
       'vi':
           '• Giấy chứng nhận xuất xứ\nCần đối chiếu thông tin với Giấy phép khai thác rừng và Giấy phép quá cảnh, cần kiểm tra kỹ tỉnh xuất xứ, khối lượng và loài cây, Giấy chứng nhận xuất xứ phải được ký bởi Viện trưởng Viện Phát triển Lâm nghiệp cấp tỉnh cũng như nhân viên điểm kiểm tra hoặc nhân viên kho.',
       'en':
           '•\tCertificate of Origin \nCross-check with information on the Forest Exploitation License and Transit Permit, carefully check the province of origin and the volume and species of trees, and ensure the Certificate of Origin has been signed by the Provincial Head of the IDF as well as check point or warehouse personnel. ',
     },
-    'ktlt9qur': {
+    'tngw580s': {
       'vi': 'Giấy chứng nhận xuất xứ',
       'en': 'Certificate of Origin',
     },
-    '2pklzlet': {
+    '374udp03': {
       'vi':
           '  \t• Giấy phép quá cảnh\nCần đối chiếu thông tin với Giấy chứng nhận xuất xứ và Giấy phép khai thác rừng, cần kiểm tra loài cây và khối lượng được quy định, và đảm bảo ngày còn hiệu lực và Giấy phép quá cảnh đã được ký bởi nhân viên kho và Viện trưởng Viện Phát triển Lâm nghiệp cấp tỉnh được đóng dấu của IDF.\n\n \t• Giấy phép xuất khẩu (Documento Único Provisório)\nCần đối chiếu với các tài liệu chuỗi cung ứng khác và đảm bảo Giấy phép đã được ký bởi Cục trưởng Cục Ngoại thương, Bộ Công Thương (Ministério da Indústria e Comércio). Cần kiểm tra chéo thông tin khối lượng sản phẩm, mô tả, phương tiện vận chuyển, chủng loại, giá trị hàng hóa của nhà xuất khẩu, nhà nhập khẩu trên giấy phép xuất khẩu với các tài liệu khác.',
       'en':
           '•\tTransit Permit \nCross-check with information on the Certificate of Origin and Forest Exploitation License, check the tree species and volumes specified, and ensure the date is valid and the Permit has been signed by warehouse personnel and signed and stamped by the Provincial Head of the IDF.\n\n•\tExport License (Documento Único Provisório)\nCross-check with other supply chain documents and ensure the License has been signed by the Director of External Trade, Ministry of Industry and Trade (Ministério da Indústria e Comércio). Cross-check information on product volume, description, means of transport, type and value of goods of exporters and importers on export License with other documents.',
     },
-    'qtwqjohm': {
+    'metwew3u': {
       'vi': 'Giấy phép xuất khẩu (Documento Único Provisório)',
       'en': '•\tExport License (Documento Único Provisório)',
     },
-    't5ktoxoa': {
+    'bfltjn12': {
       'vi':
           'Đảm bảo tuân thủ Công ước về buôn bán quốc tế các loài động, thực vật hoang dã nguy cấp (CITES)',
       'en':
           'Assure compliance with the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)',
     },
-    '54zqxetv': {
+    'lrhb9ust': {
       'vi':
           '• Giấy phép CITES\nGiấy phép CITES phải do Cơ quan quản lý CITES quốc gia của Bộ Môi trường cấp. Cần kiểm tra chữ ký và dấu của Cơ quan CITES, tên chữ ký người nộp đơn/ người xin giấy phép xuất khẩu, tên cảng xuất khẩu. ',
       'en':
           '• CITES Permit\nCITES permits are issued by the National CITES Management Authority of the Ministry of Environment. Check the signature and seal of the CITES Management Authority, the name of the applicant / applicant\'s signature for the export permit, the name of the port of export.',
     },
-    '35pihc0o': {
+    'ha0ii5tu': {
       'vi': 'Giấy phép CITES',
       'en': 'CITES Permit',
     },
@@ -2864,47 +2856,47 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'vi': 'CHẾ BIẾN GỖ',
       'en': 'PROCESSING',
     },
-    'e6kis2q3': {
+    'lrvro5jw': {
       'vi':
           'Đảm bảo tuân thủ quy định về đăng ký kinh doanh và môi trường của cơ sở chế biến gỗ',
       'en':
           'Assure compliance with regulations on business registration and the environment of wood processing establishments',
     },
-    'vsk8ao9x': {
+    'n6dia3v5': {
       'vi':
           '• Giấy phép môi trường vận hành \nGiấy phép môi trường vận hành phải do Bộ trưởng Bộ Môi trường hoặc người được ủy quyền ký và đóng dấu của Bộ Môi trường. Cần kiểm tra tài liệu, chữ ký và con dấu, thời hạn hiệu lực, nơi phát hành của giấy phép. ',
       'en':
           '• Environmental Operating License (Licença Ambiental de Operação)  \nThe environmental operating license is signed by the Minister of Environment or an authorized person and stamped by the Ministry of Environment. Check the document, signature and seal, validity of date, place of issue of the license.',
     },
-    'a4jf1wky': {
+    '2i06ib89': {
       'vi': 'Giấy phép môi trường vận hành  (Licença Ambiental de Operação) ',
       'en': 'Environmental Operating License (Licença Ambiental de Operação) ',
     },
-    'wjgykghj': {
+    '3uz1yz2m': {
       'vi':
           '• Giấy phép thương mại\nGiấy phép thương mại phải do Tổng cục trưởng Tổng cục Nội thương, Bộ Công thương ký và đóng dấu. Cần kiểm tra tài liệu, chữ ký và con dấu, thời hạn hiệu lực, nơi phát hành của giấy phép. ',
       'en':
           '• Commercial license\nThe commercial license is signed and stamped by the Director General of the General Department of Internal Trade, Ministry of Industry and Trade. Check the document, signature and seal, validity of date, place of issue of the license.',
     },
-    'aw15oqgn': {
+    'hu3cuh9o': {
       'vi':
           'Đảm bảo rằng các doanh nghiệp chế biến đã tuân thủ các quy định về an toàn và vệ sinh lao động',
       'en':
           'Assure that timber processing companies have complied with health and safety regulations',
     },
-    '4mca0828': {
+    '93tloirr': {
       'vi':
           '• Báo cáo Sở An toàn và Vệ sinh lao động\nNhà nhập khẩu có thể yêu cầu nhà xuất khẩu gỗ cung cấp báo cáo Sở an toàn và vệ sinh lao động đối với các công ty có từ 50 nhân viên trở lên.',
       'en':
           '•\tOccupational Health and Safety Services Reports \nImporters can request monthly, quarterly and annual reports for companies with 50 or more employees.',
     },
-    'xzisjfx2': {
+    'qorzf2y4': {
       'vi':
           'Đảm bảo tuân thủ các quy định về trả lương và đóng góp an sinh xã hội',
       'en':
           'Assure compliance with regulations on paid the wage and made social security contributions',
     },
-    '14z8i282': {
+    'etje2lhh': {
       'vi':
           '• Thư thông báo an sinh xã hội\nThư thông báo an sinh xã hội phải do Bộ Công chính – Lao động và An sinh xã hội (Ministério da Aministração Pública, Emprego y Segurança Social - MAPESS) ấn hành. Cần kiểm tra số lượng công nhân có thu nhập so với đóng góp an sinh xã hội, xác minh tại chỗ hồ sơ thanh toán phù hợp với Thư thông báo.',
       'en':
@@ -2914,11 +2906,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'vi': 'CÁC VẤN ĐỀ XUYÊN SUỐT',
       'en': 'CROSS-CUTTING ISSUES',
     },
-    '0z54bew2': {
+    'dg6ox3y1': {
       'vi': 'Tuân thủ các quy định về lao động',
       'en': 'Compliance with labor regulations',
     },
-    '8tr6x0kh': {
+    'xidzxl6d': {
       'vi':
           '• Hợp đồng lao động \nHợp đồng lao động được áp dụng cho một số loại công việc nhất định. Xác minh tại chỗ người lao động có hợp đồng lao động phù hợp lĩnh vực cho phép.\n\n• Thư thông báo an sinh xã hội\nThư thông báo an sinh xã hội do MAPESS ấn hành.\n\n• Báo cáo Sở An toàn và Vệ sinh lao động\nNhà nhập khẩu có thể yêu cầu nhà xuất khẩu gỗ cung cấp báo cáo Sở an toàn và vệ sinh lao động đối với các công ty có từ 50 nhân viên trở lên.',
       'en':
