@@ -56,22 +56,20 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
     return Scaffold(
       key: scaffoldKey,
       backgroundColor: Color(0xFF148308),
-      body: SafeArea(
-        child: GestureDetector(
-          onTap: () => FocusScope.of(context).unfocus(),
-          child: Container(
-            width: double.infinity,
-            height: double.infinity,
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [Color(0xFF148308), Color(0xFFD4A794)],
-                stops: [0, 1],
-                begin: AlignmentDirectional(1, -1),
-                end: AlignmentDirectional(-1, 1),
-              ),
+      body: GestureDetector(
+        onTap: () => FocusScope.of(context).unfocus(),
+        child: Container(
+          width: double.infinity,
+          height: double.infinity,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Color(0xFF148308), Color(0xFFD4A794)],
+              stops: [0, 1],
+              begin: AlignmentDirectional(1, -1),
+              end: AlignmentDirectional(-1, 1),
             ),
-          ).animated([animationsMap['containerOnPageLoadAnimation']]),
-        ),
+          ),
+        ).animated([animationsMap['containerOnPageLoadAnimation']]),
       ),
     );
   }

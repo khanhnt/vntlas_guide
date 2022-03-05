@@ -86,20 +86,21 @@ class _WelcomeHomeWidgetState extends State<WelcomeHomeWidget>
     return Scaffold(
       key: scaffoldKey,
       backgroundColor: Color(0xFF148308),
-      body: SafeArea(
-        child: GestureDetector(
-          onTap: () => FocusScope.of(context).unfocus(),
-          child: Container(
-            width: double.infinity,
-            height: double.infinity,
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [Color(0xFF148308), Color(0xFFD4A794)],
-                stops: [0, 1],
-                begin: AlignmentDirectional(1, -1),
-                end: AlignmentDirectional(-1, 1),
-              ),
+      body: GestureDetector(
+        onTap: () => FocusScope.of(context).unfocus(),
+        child: Container(
+          width: double.infinity,
+          height: double.infinity,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Color(0xFF148308), Color(0xFFD4A794)],
+              stops: [0, 1],
+              begin: AlignmentDirectional(1, -1),
+              end: AlignmentDirectional(-1, 1),
             ),
+          ),
+          child: Align(
+            alignment: AlignmentDirectional(0, -0.05),
             child: InkWell(
               onTap: () async {
                 await Navigator.push(
@@ -111,10 +112,11 @@ class _WelcomeHomeWidgetState extends State<WelcomeHomeWidget>
               },
               child: Column(
                 mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(0, 45, 0, 0),
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 34, 0, 0),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -262,8 +264,8 @@ class _WelcomeHomeWidgetState extends State<WelcomeHomeWidget>
                 ],
               ),
             ).animated([animationsMap['columnOnPageLoadAnimation']]),
-          ).animated([animationsMap['containerOnPageLoadAnimation']]),
-        ),
+          ),
+        ).animated([animationsMap['containerOnPageLoadAnimation']]),
       ),
     );
   }
