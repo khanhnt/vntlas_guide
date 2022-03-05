@@ -945,18 +945,189 @@ class _DetailPageAngola1WidgetState extends State<DetailPageAngola1Widget> {
                           expanded: Column(
                             mainAxisSize: MainAxisSize.max,
                             children: [
-                              Text(
-                                FFLocalizations.of(context).getText(
-                                  'w8nkvbgy' /* • Bản đồ khu vực nhượng quyền
+                              Column(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Text(
+                                    FFLocalizations.of(context).getText(
+                                      'w8nkvbgy' /* • Bản đồ khu vực nhượng quyền
 ... */
-                                  ,
-                                ),
-                                style: FlutterFlowTheme.of(context)
-                                    .bodyText1
-                                    .override(
-                                      fontFamily: 'Poppins',
-                                      color: Color(0x8A000000),
+                                      ,
                                     ),
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'Poppins',
+                                          color: Color(0x8A000000),
+                                        ),
+                                  ),
+                                  Container(
+                                    width: double.infinity,
+                                    color: Colors.white,
+                                    child: ExpandableNotifier(
+                                      initialExpanded: false,
+                                      child: ExpandablePanel(
+                                        header: Text(
+                                          FFLocalizations.of(context).getText(
+                                            'mlskd4ly' /* Muc */,
+                                          ),
+                                          style: FlutterFlowTheme.of(context)
+                                              .title1
+                                              .override(
+                                                fontFamily: 'Poppins',
+                                                color: Colors.black,
+                                              ),
+                                        ),
+                                        collapsed: Container(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 0,
+                                          decoration: BoxDecoration(
+                                            color: Color(0xFFEEEEEE),
+                                          ),
+                                          child: Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    0, 8, 0, 0),
+                                            child: Text(
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'qyseu6h5' /* Lorem ipsum dolor sit amet, co... */,
+                                              ),
+                                              style:
+                                                  FlutterFlowTheme.of(context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily: 'Poppins',
+                                                        color:
+                                                            Color(0x8A000000),
+                                                      ),
+                                            ),
+                                          ),
+                                        ),
+                                        expanded: Column(
+                                          mainAxisSize: MainAxisSize.max,
+                                          children: [
+                                            Text(
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '2vz8ufn4' /* Lorem ipsum dolor sit amet, co... */,
+                                              ),
+                                              style:
+                                                  FlutterFlowTheme.of(context)
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily: 'Poppins',
+                                                        color:
+                                                            Color(0x8A000000),
+                                                      ),
+                                            ),
+                                            Padding(
+                                              padding: EdgeInsetsDirectional
+                                                  .fromSTEB(0, 4, 0, 0),
+                                              child: Image.network(
+                                                'https://picsum.photos/seed/265/600',
+                                                width: MediaQuery.of(context)
+                                                    .size
+                                                    .width,
+                                                height: 100,
+                                                fit: BoxFit.cover,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                        theme: ExpandableThemeData(
+                                          tapHeaderToExpand: true,
+                                          tapBodyToExpand: false,
+                                          tapBodyToCollapse: false,
+                                          headerAlignment:
+                                              ExpandablePanelHeaderAlignment
+                                                  .center,
+                                          hasIcon: true,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              Container(
+                                width: double.infinity,
+                                color: Colors.white,
+                                child: ExpandableNotifier(
+                                  initialExpanded: false,
+                                  child: ExpandablePanel(
+                                    header: Text(
+                                      FFLocalizations.of(context).getText(
+                                        'm2y5sjgw' /* Muc */,
+                                      ),
+                                      style: FlutterFlowTheme.of(context)
+                                          .title1
+                                          .override(
+                                            fontFamily: 'Poppins',
+                                            color: Colors.black,
+                                          ),
+                                    ),
+                                    collapsed: Container(
+                                      width: MediaQuery.of(context).size.width,
+                                      height: 0,
+                                      decoration: BoxDecoration(
+                                        color: Color(0xFFEEEEEE),
+                                      ),
+                                      child: Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0, 8, 0, 0),
+                                        child: Text(
+                                          FFLocalizations.of(context).getText(
+                                            'gqieo7mm' /* Lorem ipsum dolor sit amet, co... */,
+                                          ),
+                                          style: FlutterFlowTheme.of(context)
+                                              .bodyText1
+                                              .override(
+                                                fontFamily: 'Poppins',
+                                                color: Color(0x8A000000),
+                                              ),
+                                        ),
+                                      ),
+                                    ),
+                                    expanded: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        Text(
+                                          FFLocalizations.of(context).getText(
+                                            'zf0snlto' /* Lorem ipsum dolor sit amet, co... */,
+                                          ),
+                                          style: FlutterFlowTheme.of(context)
+                                              .bodyText1
+                                              .override(
+                                                fontFamily: 'Poppins',
+                                                color: Color(0x8A000000),
+                                              ),
+                                        ),
+                                        Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 4, 0, 0),
+                                          child: Image.network(
+                                            'https://picsum.photos/seed/265/600',
+                                            width: MediaQuery.of(context)
+                                                .size
+                                                .width,
+                                            height: 100,
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    theme: ExpandableThemeData(
+                                      tapHeaderToExpand: true,
+                                      tapBodyToExpand: false,
+                                      tapBodyToCollapse: false,
+                                      headerAlignment:
+                                          ExpandablePanelHeaderAlignment.center,
+                                      hasIcon: true,
+                                    ),
+                                  ),
+                                ),
                               ),
                             ],
                           ),
