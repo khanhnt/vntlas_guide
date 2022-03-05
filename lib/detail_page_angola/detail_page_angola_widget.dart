@@ -1,11 +1,14 @@
+import '../flutter_flow/flutter_flow_expanded_image_view.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_html/flutter_html.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:page_transition/page_transition.dart';
 
 class DetailPageAngolaWidget extends StatefulWidget {
   const DetailPageAngolaWidget({Key key}) : super(key: key);
@@ -713,9 +716,32 @@ class _DetailPageAngolaWidgetState extends State<DetailPageAngolaWidget> {
                                       fontStyle: FontStyle.italic,
                                     ),
                               ),
-                              Image.asset(
-                                'assets/images/mcatd_1.png',
-                                fit: BoxFit.cover,
+                              InkWell(
+                                onDoubleTap: () async {
+                                  await Navigator.push(
+                                    context,
+                                    PageTransition(
+                                      type: PageTransitionType.fade,
+                                      child: FlutterFlowExpandedImageView(
+                                        image: Image.asset(
+                                          'assets/images/mcatd_1.png',
+                                          fit: BoxFit.contain,
+                                        ),
+                                        allowRotation: false,
+                                        tag: 'imageTag1',
+                                        useHeroAnimation: true,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: Hero(
+                                  tag: 'imageTag1',
+                                  transitionOnUserGestures: true,
+                                  child: Image.asset(
+                                    'assets/images/mcatd_1.png',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
                               ),
                             ],
                           ),
@@ -894,6 +920,852 @@ class _DetailPageAngolaWidgetState extends State<DetailPageAngolaWidget> {
                           ),
                         ),
                       ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 1, 0, 1),
+                  child: Container(
+                    height: 30,
+                    decoration: BoxDecoration(),
+                    alignment: AlignmentDirectional(0, 0.6000000000000001),
+                    child: Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(2, 0, 0, 2),
+                      child: AutoSizeText(
+                        FFLocalizations.of(context).getText(
+                          'bb7yvsi4' /* VẬN TẢI VÀ THƯƠNG MẠI GỖ */,
+                        ),
+                        textAlign: TextAlign.center,
+                        style: FlutterFlowTheme.of(context).bodyText1.override(
+                              fontFamily: 'Poppins',
+                              color: Colors.black,
+                              fontSize: 16,
+                            ),
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 1, 0, 1),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [Color(0xFF9CCC65), Color(0xFFD4A794)],
+                        stops: [0, 1],
+                        begin: AlignmentDirectional(0.17, -1),
+                        end: AlignmentDirectional(-0.17, 1),
+                      ),
+                      border: Border.all(
+                        color: Colors.black,
+                      ),
+                    ),
+                    child: Container(
+                      width: double.infinity,
+                      color: Color(0xFFF1F8E9),
+                      child: ExpandableNotifier(
+                        initialExpanded: false,
+                        child: ExpandablePanel(
+                          header: Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
+                            child: Text(
+                              FFLocalizations.of(context).getText(
+                                'sd3ovkr1' /* Thực hiện tuân thủ đầy đủ các ... */,
+                              ),
+                              style:
+                                  FlutterFlowTheme.of(context).title1.override(
+                                        fontFamily: 'Poppins',
+                                        color: Colors.black,
+                                        fontSize: 14,
+                                      ),
+                            ),
+                          ),
+                          collapsed: Container(
+                            width: MediaQuery.of(context).size.width,
+                            height: 0,
+                            decoration: BoxDecoration(
+                              color: Color(0xFFEEEEEE),
+                            ),
+                            child: Text(
+                              '',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'Poppins',
+                                    color: Color(0x8A000000),
+                                  ),
+                            ),
+                          ),
+                          expanded: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
+                                child: Text(
+                                  FFLocalizations.of(context).getText(
+                                    'cneazelf' /* • Giấy chứng nhận xuất xứ
+Cần ... */
+                                    ,
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Poppins',
+                                        color: Color(0x8A000000),
+                                        fontWeight: FontWeight.normal,
+                                      ),
+                                ),
+                              ),
+                              Text(
+                                FFLocalizations.of(context).getText(
+                                  'r7fwo0cs' /* Giấy chứng nhận xuất xứ */,
+                                ),
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyText1
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      fontWeight: FontWeight.w300,
+                                      fontStyle: FontStyle.italic,
+                                    ),
+                              ),
+                              InkWell(
+                                onDoubleTap: () async {
+                                  await Navigator.push(
+                                    context,
+                                    PageTransition(
+                                      type: PageTransitionType.fade,
+                                      child: FlutterFlowExpandedImageView(
+                                        image: Image.asset(
+                                          'assets/images/Angola_3.png',
+                                          fit: BoxFit.contain,
+                                        ),
+                                        allowRotation: false,
+                                        tag: 'imageTag2',
+                                        useHeroAnimation: true,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: Hero(
+                                  tag: 'imageTag2',
+                                  transitionOnUserGestures: true,
+                                  child: Image.asset(
+                                    'assets/images/Angola_3.png',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
+                                child: Text(
+                                  FFLocalizations.of(context).getText(
+                                    '1wcx2l3l' /*   	• Giấy phép quá cảnh
+Cần đố... */
+                                    ,
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Poppins',
+                                        color: Color(0x8A000000),
+                                        fontWeight: FontWeight.normal,
+                                      ),
+                                ),
+                              ),
+                              Text(
+                                FFLocalizations.of(context).getText(
+                                  'mhm4xmcj' /* Giấy phép xuất khẩu (Documento... */,
+                                ),
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyText1
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      fontWeight: FontWeight.w300,
+                                      fontStyle: FontStyle.italic,
+                                    ),
+                              ),
+                              InkWell(
+                                onDoubleTap: () async {
+                                  await Navigator.push(
+                                    context,
+                                    PageTransition(
+                                      type: PageTransitionType.fade,
+                                      child: FlutterFlowExpandedImageView(
+                                        image: Image.asset(
+                                          'assets/images/Angola_2.png',
+                                          fit: BoxFit.contain,
+                                        ),
+                                        allowRotation: false,
+                                        tag: 'imageTag3',
+                                        useHeroAnimation: true,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: Hero(
+                                  tag: 'imageTag3',
+                                  transitionOnUserGestures: true,
+                                  child: Image.asset(
+                                    'assets/images/Angola_2.png',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          theme: ExpandableThemeData(
+                            tapHeaderToExpand: true,
+                            tapBodyToExpand: false,
+                            tapBodyToCollapse: false,
+                            headerAlignment:
+                                ExpandablePanelHeaderAlignment.center,
+                            hasIcon: true,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 1, 0, 1),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [Color(0xFF9CCC65), Color(0xFFD4A794)],
+                        stops: [0, 1],
+                        begin: AlignmentDirectional(0.17, -1),
+                        end: AlignmentDirectional(-0.17, 1),
+                      ),
+                      border: Border.all(
+                        color: Colors.black,
+                      ),
+                    ),
+                    child: Container(
+                      width: double.infinity,
+                      color: Color(0xFFF1F8E9),
+                      child: ExpandableNotifier(
+                        initialExpanded: false,
+                        child: ExpandablePanel(
+                          header: Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
+                            child: Text(
+                              FFLocalizations.of(context).getText(
+                                't16pvh8g' /* Đảm bảo tuân thủ Công ước về b... */,
+                              ),
+                              style:
+                                  FlutterFlowTheme.of(context).title1.override(
+                                        fontFamily: 'Poppins',
+                                        color: Colors.black,
+                                        fontSize: 14,
+                                      ),
+                            ),
+                          ),
+                          collapsed: Container(
+                            width: MediaQuery.of(context).size.width,
+                            height: 0,
+                            decoration: BoxDecoration(
+                              color: Color(0xFFEEEEEE),
+                            ),
+                            child: Text(
+                              '',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'Poppins',
+                                    color: Color(0x8A000000),
+                                  ),
+                            ),
+                          ),
+                          expanded: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
+                                child: Text(
+                                  FFLocalizations.of(context).getText(
+                                    'y6z9g9fx' /* • Giấy phép CITES
+Giấy phép CI... */
+                                    ,
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Poppins',
+                                        color: Color(0x8A000000),
+                                        fontWeight: FontWeight.normal,
+                                      ),
+                                ),
+                              ),
+                              Text(
+                                FFLocalizations.of(context).getText(
+                                  'ia8q6bos' /* Giấy phép CITES */,
+                                ),
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyText1
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      fontWeight: FontWeight.w300,
+                                      fontStyle: FontStyle.italic,
+                                    ),
+                              ),
+                              InkWell(
+                                onDoubleTap: () async {
+                                  await Navigator.push(
+                                    context,
+                                    PageTransition(
+                                      type: PageTransitionType.fade,
+                                      child: FlutterFlowExpandedImageView(
+                                        image: Image.asset(
+                                          'assets/images/Angola_5.png',
+                                          fit: BoxFit.contain,
+                                        ),
+                                        allowRotation: false,
+                                        tag: 'imageTag4',
+                                        useHeroAnimation: true,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: Hero(
+                                  tag: 'imageTag4',
+                                  transitionOnUserGestures: true,
+                                  child: Image.asset(
+                                    'assets/images/Angola_5.png',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                              InkWell(
+                                onDoubleTap: () async {
+                                  await Navigator.push(
+                                    context,
+                                    PageTransition(
+                                      type: PageTransitionType.fade,
+                                      child: FlutterFlowExpandedImageView(
+                                        image: Image.asset(
+                                          'assets/images/Angola_6.png',
+                                          fit: BoxFit.contain,
+                                        ),
+                                        allowRotation: false,
+                                        tag: 'imageTag5',
+                                        useHeroAnimation: true,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: Hero(
+                                  tag: 'imageTag5',
+                                  transitionOnUserGestures: true,
+                                  child: Image.asset(
+                                    'assets/images/Angola_6.png',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          theme: ExpandableThemeData(
+                            tapHeaderToExpand: true,
+                            tapBodyToExpand: false,
+                            tapBodyToCollapse: false,
+                            headerAlignment:
+                                ExpandablePanelHeaderAlignment.center,
+                            hasIcon: true,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 1, 0, 1),
+                  child: Container(
+                    height: 30,
+                    decoration: BoxDecoration(),
+                    alignment: AlignmentDirectional(0, 0.6000000000000001),
+                    child: Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(2, 0, 0, 2),
+                      child: AutoSizeText(
+                        FFLocalizations.of(context).getText(
+                          'tm3dxxka' /* CHẾ BIẾN GỖ */,
+                        ),
+                        textAlign: TextAlign.center,
+                        style: FlutterFlowTheme.of(context).bodyText1.override(
+                              fontFamily: 'Poppins',
+                              color: Colors.black,
+                              fontSize: 16,
+                            ),
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 1, 0, 1),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [Color(0xFF9CCC65), Color(0xFFD4A794)],
+                        stops: [0, 1],
+                        begin: AlignmentDirectional(0.17, -1),
+                        end: AlignmentDirectional(-0.17, 1),
+                      ),
+                      border: Border.all(
+                        color: Colors.black,
+                      ),
+                    ),
+                    child: Container(
+                      width: double.infinity,
+                      color: Color(0xFFF1F8E9),
+                      child: ExpandableNotifier(
+                        initialExpanded: false,
+                        child: ExpandablePanel(
+                          header: Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
+                            child: Text(
+                              FFLocalizations.of(context).getText(
+                                'vo7ihe6d' /* Đảm bảo tuân thủ quy định về đ... */,
+                              ),
+                              style:
+                                  FlutterFlowTheme.of(context).title1.override(
+                                        fontFamily: 'Poppins',
+                                        color: Colors.black,
+                                        fontSize: 14,
+                                      ),
+                            ),
+                          ),
+                          collapsed: Container(
+                            width: MediaQuery.of(context).size.width,
+                            height: 0,
+                            decoration: BoxDecoration(
+                              color: Color(0xFFEEEEEE),
+                            ),
+                            child: Text(
+                              '',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'Poppins',
+                                    color: Color(0x8A000000),
+                                  ),
+                            ),
+                          ),
+                          expanded: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
+                                child: Text(
+                                  FFLocalizations.of(context).getText(
+                                    'l49xjd3q' /* • Giấy phép môi trường vận hàn... */,
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Poppins',
+                                        color: Color(0x8A000000),
+                                        fontWeight: FontWeight.normal,
+                                      ),
+                                ),
+                              ),
+                              Text(
+                                FFLocalizations.of(context).getText(
+                                  'o4wvto0m' /* Giấy phép môi trường vận hành ... */,
+                                ),
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyText1
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      fontWeight: FontWeight.w300,
+                                      fontStyle: FontStyle.italic,
+                                    ),
+                              ),
+                              InkWell(
+                                onDoubleTap: () async {
+                                  await Navigator.push(
+                                    context,
+                                    PageTransition(
+                                      type: PageTransitionType.fade,
+                                      child: FlutterFlowExpandedImageView(
+                                        image: Image.asset(
+                                          'assets/images/mcatd_1.png',
+                                          fit: BoxFit.contain,
+                                        ),
+                                        allowRotation: false,
+                                        tag: 'imageTag6',
+                                        useHeroAnimation: true,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: Hero(
+                                  tag: 'imageTag6',
+                                  transitionOnUserGestures: true,
+                                  child: Image.asset(
+                                    'assets/images/mcatd_1.png',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
+                                child: Text(
+                                  FFLocalizations.of(context).getText(
+                                    'vq3seqdn' /* • Giấy phép thương mại
+Giấy ph... */
+                                    ,
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Poppins',
+                                        color: Color(0x8A000000),
+                                        fontWeight: FontWeight.normal,
+                                      ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          theme: ExpandableThemeData(
+                            tapHeaderToExpand: true,
+                            tapBodyToExpand: false,
+                            tapBodyToCollapse: false,
+                            headerAlignment:
+                                ExpandablePanelHeaderAlignment.center,
+                            hasIcon: true,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 1, 0, 1),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [Color(0xFF9CCC65), Color(0xFFD4A794)],
+                        stops: [0, 1],
+                        begin: AlignmentDirectional(0.17, -1),
+                        end: AlignmentDirectional(-0.17, 1),
+                      ),
+                      border: Border.all(
+                        color: Colors.black,
+                      ),
+                    ),
+                    child: Container(
+                      width: double.infinity,
+                      color: Color(0xFFF1F8E9),
+                      child: ExpandableNotifier(
+                        initialExpanded: false,
+                        child: ExpandablePanel(
+                          header: Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
+                            child: Text(
+                              FFLocalizations.of(context).getText(
+                                'ycomnchb' /* Đảm bảo rằng các doanh nghiệp ... */,
+                              ),
+                              style:
+                                  FlutterFlowTheme.of(context).title1.override(
+                                        fontFamily: 'Poppins',
+                                        color: Colors.black,
+                                        fontSize: 14,
+                                      ),
+                            ),
+                          ),
+                          collapsed: Container(
+                            width: MediaQuery.of(context).size.width,
+                            height: 0,
+                            decoration: BoxDecoration(
+                              color: Color(0xFFEEEEEE),
+                            ),
+                            child: Text(
+                              '',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'Poppins',
+                                    color: Color(0x8A000000),
+                                  ),
+                            ),
+                          ),
+                          expanded: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
+                                child: Text(
+                                  FFLocalizations.of(context).getText(
+                                    '841nuxwa' /* • Báo cáo Sở An toàn và Vệ sin... */,
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Poppins',
+                                        color: Color(0x8A000000),
+                                        fontWeight: FontWeight.normal,
+                                      ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          theme: ExpandableThemeData(
+                            tapHeaderToExpand: true,
+                            tapBodyToExpand: false,
+                            tapBodyToCollapse: false,
+                            headerAlignment:
+                                ExpandablePanelHeaderAlignment.center,
+                            hasIcon: true,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 1, 0, 1),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [Color(0xFF9CCC65), Color(0xFFD4A794)],
+                        stops: [0, 1],
+                        begin: AlignmentDirectional(0.17, -1),
+                        end: AlignmentDirectional(-0.17, 1),
+                      ),
+                      border: Border.all(
+                        color: Colors.black,
+                      ),
+                    ),
+                    child: Container(
+                      width: double.infinity,
+                      color: Color(0xFFF1F8E9),
+                      child: ExpandableNotifier(
+                        initialExpanded: false,
+                        child: ExpandablePanel(
+                          header: Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
+                            child: Text(
+                              FFLocalizations.of(context).getText(
+                                'q1oyl7o4' /* Đảm bảo tuân thủ các quy định ... */,
+                              ),
+                              style:
+                                  FlutterFlowTheme.of(context).title1.override(
+                                        fontFamily: 'Poppins',
+                                        color: Colors.black,
+                                        fontSize: 14,
+                                      ),
+                            ),
+                          ),
+                          collapsed: Container(
+                            width: MediaQuery.of(context).size.width,
+                            height: 0,
+                            decoration: BoxDecoration(
+                              color: Color(0xFFEEEEEE),
+                            ),
+                            child: Text(
+                              '',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'Poppins',
+                                    color: Color(0x8A000000),
+                                  ),
+                            ),
+                          ),
+                          expanded: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
+                                child: Text(
+                                  FFLocalizations.of(context).getText(
+                                    '3fvn6yyh' /* • Thư thông báo an sinh xã hội... */,
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Poppins',
+                                        color: Color(0x8A000000),
+                                        fontWeight: FontWeight.normal,
+                                      ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          theme: ExpandableThemeData(
+                            tapHeaderToExpand: true,
+                            tapBodyToExpand: false,
+                            tapBodyToCollapse: false,
+                            headerAlignment:
+                                ExpandablePanelHeaderAlignment.center,
+                            hasIcon: true,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 1, 0, 1),
+                  child: Container(
+                    height: 30,
+                    decoration: BoxDecoration(),
+                    alignment: AlignmentDirectional(0, 0.6000000000000001),
+                    child: Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(2, 0, 0, 2),
+                      child: AutoSizeText(
+                        FFLocalizations.of(context).getText(
+                          'dbfrdqt2' /* CÁC VẤN ĐỀ XUYÊN SUỐT */,
+                        ),
+                        textAlign: TextAlign.center,
+                        style: FlutterFlowTheme.of(context).bodyText1.override(
+                              fontFamily: 'Poppins',
+                              color: Colors.black,
+                              fontSize: 16,
+                            ),
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 1, 0, 1),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [Color(0xFF9CCC65), Color(0xFFD4A794)],
+                        stops: [0, 1],
+                        begin: AlignmentDirectional(0.17, -1),
+                        end: AlignmentDirectional(-0.17, 1),
+                      ),
+                      border: Border.all(
+                        color: Colors.black,
+                      ),
+                    ),
+                    child: Container(
+                      width: double.infinity,
+                      color: Color(0xFFF1F8E9),
+                      child: ExpandableNotifier(
+                        initialExpanded: false,
+                        child: ExpandablePanel(
+                          header: Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
+                            child: Text(
+                              FFLocalizations.of(context).getText(
+                                'oy8j32gt' /* Tuân thủ các quy định về lao đ... */,
+                              ),
+                              style:
+                                  FlutterFlowTheme.of(context).title1.override(
+                                        fontFamily: 'Poppins',
+                                        color: Colors.black,
+                                        fontSize: 14,
+                                      ),
+                            ),
+                          ),
+                          collapsed: Container(
+                            width: MediaQuery.of(context).size.width,
+                            height: 0,
+                            decoration: BoxDecoration(
+                              color: Color(0xFFEEEEEE),
+                            ),
+                            child: Text(
+                              '',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'Poppins',
+                                    color: Color(0x8A000000),
+                                  ),
+                            ),
+                          ),
+                          expanded: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
+                                child: Text(
+                                  FFLocalizations.of(context).getText(
+                                    'jp03638e' /* • Hợp đồng lao động 
+Hợp đồng ... */
+                                    ,
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Poppins',
+                                        color: Color(0x8A000000),
+                                        fontWeight: FontWeight.normal,
+                                      ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          theme: ExpandableThemeData(
+                            tapHeaderToExpand: true,
+                            tapBodyToExpand: false,
+                            tapBodyToCollapse: false,
+                            headerAlignment:
+                                ExpandablePanelHeaderAlignment.center,
+                            hasIcon: true,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 1, 0, 1),
+                  child: Container(
+                    height: 150,
+                    decoration: BoxDecoration(),
+                    alignment: AlignmentDirectional(0, 0.6000000000000001),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Text(
+                          FFLocalizations.of(context).getText(
+                            'h21s0yzn' /* Để biết thêm thông tin về Quy ... */,
+                          ),
+                          textAlign: TextAlign.center,
+                          style:
+                              FlutterFlowTheme.of(context).bodyText1.override(
+                                    fontFamily: 'Poppins',
+                                    fontWeight: FontWeight.w300,
+                                    fontStyle: FontStyle.italic,
+                                  ),
+                        ),
+                        Html(
+                          data:
+                              '<a href=\"url\">https://preferredbynature.org/projects/developing-background-analyses-voluntary-partnership-agreement-vpa-support-project</a>',
+                        ),
+                        Html(
+                          data:
+                              '<a href=\"url\">https://timberlex.apps.fao.org/</a>',
+                        ),
+                      ],
                     ),
                   ),
                 ),
