@@ -1,4 +1,4 @@
-import '../detail_page_angola/detail_page_angola_widget.dart';
+import '../detail_page_angola_1/detail_page_angola1_widget.dart';
 import '../detail_page_cameroon_1/detail_page_cameroon1_widget.dart';
 import '../detail_page_campuchia_1/detail_page_campuchia1_widget.dart';
 import '../detail_page_congo_1/detail_page_congo1_widget.dart';
@@ -233,7 +233,7 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageAngolaWidget(),
+                          builder: (context) => DetailPageAngola1Widget(),
                         ),
                       );
                     },
