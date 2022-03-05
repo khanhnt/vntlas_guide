@@ -560,124 +560,233 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'vi': 'Tìm nước...',
       'en': '',
     },
-    'iwq3k5fc': {
+    'art0d2gb': {
       'vi': 'Quy định gỗ hợp pháp của Angola',
       'en': 'Angola’s Timber legality requirements',
     },
-    'l8om9d7l': {
+    'o5pnxa6z': {
       'vi':
-          'Angola chưa tham gia đàm phán Hiệp định Đối tác Tự nguyện với Liên minh Châu Âu. Tuy nhiên, nước này có hệ thống pháp lý tương đối toàn diện, đảm bảo xác định, giảm thiểu rủi ro đối với các sản phẩm gỗ tuân thủ luật pháp quốc gia và giúp ngăn chặn việc nhập khẩu gỗ bất hợp pháp vào các quốc gia khác. Bằng cách nhận thức được các quy định pháp luật ở Angola được nêu rõ dưới đây, các cơ quan thực thi pháp luật và các nhà nhập khẩu có thể thực hiện các biện pháp kiểm soát và giảm thiểu rủi ro để ngăn chặn gỗ bị khai thác, vận chuyển và buôn bán bất hợp pháp từ Angola. Các nhà nhập khẩu và cơ quan xác minh có thể tham khảo hoặc sử dụng thông tin này trong việc thực hiện trách nhiệm giải trình.\n\n',
+          'Angola chưa tham gia đàm phán Hiệp định Đối tác Tự nguyện với Liên minh Châu Âu. Tuy nhiên, nước này có hệ thống pháp lý tương đối toàn diện, đảm bảo xác định, giảm thiểu rủi ro đối với các sản phẩm gỗ tuân thủ luật pháp quốc gia và giúp ngăn chặn việc nhập khẩu gỗ bất hợp pháp vào các quốc gia khác. Bằng cách nhận thức được các quy định pháp luật ở Angola được nêu rõ dưới đây, các cơ quan thực thi pháp luật và các nhà nhập khẩu có thể thực hiện các biện pháp kiểm soát và giảm thiểu rủi ro để ngăn chặn gỗ bị khai thác, vận chuyển và buôn bán bất hợp pháp từ Angola. Các nhà nhập khẩu và cơ quan xác minh có thể tham khảo hoặc sử dụng thông tin này trong việc thực hiện trách nhiệm giải trình.\n',
       'en':
-          'Angola has not yet entered into negotiations for a Voluntary Partnership Agreement with the European Union. However, the country has a relatively comprehensive legal system that ensures identification and mitigation of risks for wood products in compliance with national laws and helping prevent the import of illegal timber into other countries. By being aware of the legal requirements in Angola highlighted below, law enforcement agencies and importers can implement control and risk mitigation measures to prevent timber being illegally harvested, transported and traded. Importers and verification agencies may refer to or use this definition in implementing due diligence.',
+          'Angola has not yet entered into negotiations for a Voluntary Partnership Agreement with the European Union. However, the country has a relatively comprehensive legal system that ensures identification and mitigation of risks for wood products in compliance with national laws and helping prevent the import of illegal timber into other countries. By being aware of the legal requirements in Angola highlighted below, law enforcement agencies and importers can implement control and risk mitigation measures to prevent timber being illegally harvested, transported and traded. Importers and verification agencies may refer to or use this definition in implementing due diligence.\n',
     },
-    'kjwrnjgo': {
+    'rwguj2e6': {
       'vi':
           'Gợi ý xây dựng và thực hiện trách nhiệm giải trình cho các nhà nhập khẩu',
       'en':
           'Suggestions for developing and implementing due diligence for importers',
     },
-    '7pn66ruh': {
+    'dlh7nvr0': {
+      'vi': '',
+      'en': '',
+    },
+    'hibhad5t': {
       'vi': 'Trách nhiệm giải trình là gì?',
       'en': 'Due diligence and complexity',
     },
-    'f4azkvwe': {
+    'zu9kjiw6': {
       'vi':
           '• Trách nhiệm giải trình là việc tổ chức, cá nhân tuân thủ các quy định pháp luật, chứng minh tính hợp pháp của gỗ và khả năng truy xuất nguồn gốc gỗ được mua bán.\n\n• Phạm vi của hệ thống trách nhiệm giải trình phụ thuộc vào số lượng và mức độ phức tạp của chuỗi cung ứng. Ví dụ: nhiều khâu trung gian và/ hoặc nhiều tổ chức, cá nhân tham gia chuỗi cung, nhiều loài gỗ và thành phần chủ gỗ\n',
       'en':
           '•\tDue diligence is the compliance of organizations and individuals with legal regulations in terms of tracking timber origin and proving the legality of traded timber products.\n\n•\tThe scope of a due diligence system depends on the number and the complexity of supply chains, e.g. multi-middleman and/or many organizations and individuals participating in the supply chain, many timber species and timber owners.\n',
     },
-    'd0bt196y': {
+    '1az0vokv': {
       'vi': 'Phát triển hệ thống trách nhiệm giải trình',
       'en': 'Developing due diligence systems',
     },
-    'qfazea2c': {
+    'q17sz2d0': {
       'vi':
           '• Phát triển một hệ thống với cam kết của lãnh đạo, các chính sách, quy trình, cơ cấu tổ chức, và mẫu biểu/ danh sách kiểm tra và những người chịu trách nhiệm chính.\n• Thu thập thông tin từ các chuỗi cung ứng.\n• Đánh giá các chuỗi cung ứng và đánh giá lỗ hổng/ rủi ro.\n• Thực hiện giảm thiểu rủi ro.\n• Lập và lưu trữ hồ sơ.\n',
       'en':
           '•\tDevelop a system with leadership commitment, policies, procedures, organizational structures, templates/checklists and key responsible persons.\n•\tGather information from supply chains.\n•\tEvaluate supply chains and gaps/risk assessments.\n•\tImplement risk mitigation\n•\tSet up and store documents. \n',
     },
-    '0m9uo64i': {
+    'kenbfzz1': {
       'vi': 'Thực hiện trách nhiệm giải trình',
       'en': 'Implementing due diligence',
     },
-    'rbps1b8u': {
+    '9010yazm': {
       'vi':
           '• Đánh giá tính hợp lệ của tài liệu về thời hạn, hiệu lực và thẩm quyền.\n• Kiểm tra mỗi tài liệu đã được cập nhật, đã được ký/ đóng dấu bởi cơ quan đủ thẩm quyền.\n• Đối chiếu tính nhất quán, logic giữa tài liệu này với tài liệu khác được cung cấp và với các sản phẩm thực tế (loại gỗ, khối lượng, địa điểm khai thác, v.v.) đang được bán/ xuất khẩu.\n• Các biện pháp cần thiết: yêu cầu bổ sung thông tin từ nhà cung cấp; tiến hành tham vấn các bên liên quan; kiểm định gỗ; cử cán bộ nghiệm thu nguồn gỗ; và/ hoặc thuê các bên thứ ba để kiểm toán thực địa.\n',
       'en':
           '•\tEvaluate the validity of documentation in term of date, period and authorization.\n•\tCheck that each document is up to date, has been signed/stamped by the authorized agencies.\n•\tCross-check consistent and logical within itself, with other provided documents and with actual products (species, volume, location of harvest, etc.) being sold/exported. \n•\tThe necessary measures: require further information from suppliers; conduct stakeholder consultation; test timber; send staff to check timber sources; and/or hire third parties for on-site checks.\n',
     },
-    'foxbc7f3': {
+    'es3ngm20': {
       'vi':
           'Các tài liệu sau đây được chọn theo định nghĩa gỗ hợp pháp của Angola và/ hoặc các quy định pháp luật trong các giai đoạn khác nhau của chuỗi cung ứng.',
       'en':
           'The following documents are selected in accordance with Angola’s legal definition and/or legal requirements in different stages of the supply chain.',
     },
-    'mueup8nf': {
+    'leb99snq': {
       'vi': 'KHAI THÁC GỖ',
       'en': 'HARVESTING TIMBER',
     },
-    '0x54gybd': {
+    '0gsg1x8f': {
+      'vi': '',
+      'en': '',
+    },
+    '051uxjv5': {
       'vi': 'Quyền khai thác',
       'en': 'Harvesting rights',
     },
-    'rphptmmt': {
+    '14pk9adt': {
       'vi':
           '• Giấy phép khai thác rừng hàng năm (Licenca de Exploração florestal)\nBằng chứng từ người có quyền khai thác các loại gỗ cụ thể, với khối lượng cho phép nhất định từ diện tích rừng xác định. Đối chiếu thông tin với Giấy chứng nhận xuất xứ và Giấy phép quá cảnh. Cần kiểm tra kỹ tên chủ Giấy phép và tỉnh được chỉ định, và đảm bảo Giấy phép đã được ký và đóng dấu của Tổng Giám đốc Viện Phát triển Lâm nghiệp ((Instituto de Desenvolvimento Florestal - IDF).\n\n• Báo cáo đánh giá tác động môi trường\nBáo cáo đánh giá tác động môi trường đã được Bộ Môi trường và Bộ Nông Lâm nghiệp phê duyệt. Cần kiểm tra tên của chủ dự án, chữ ký và đóng dấu, thời gian có hiệu lực và hoạt động giảm thiểu theo kế hoạch.\n',
       'en':
           '•\tAnnual forest exploitation license (Licenca de Exploração florestal)   \nProvide verifier from the holder of the right to harvest specific timber species with a certain allowable volume from a defined forest area. Cross-check information with the Certificate of Origin and the Transit Permit. Carefully check the name of the License holder and the province specified, and ensure the License has been signed and stamped by the Director General of the Forestry Development Institute (Instituto de Desenvolvimento Florestal - IDF).\n\n• Environmental impact assessment report \nThe environmental impact assessment report has been approved by the Ministry of Environment and the Ministry of Agriculture and Forestry. Check project owner\'s name, signature and stamp, date is valid and planned mitigation action.\n',
     },
-    'oww39ewn': {
+    'z0nu421y': {
       'vi':
           'Giấy phép khai thác rừng hàng năm (Licenca de Exploração florestal)',
       'en':
           'Annual forest exploitation license (Licenca de Exploração florestal) ',
     },
-    'iu770v5b': {
+    'v8o2et8c': {
       'vi': 'Đảm bảo quản lý và lập kế hoạch khai thác',
       'en': 'Assure harvesting management and planning ',
     },
-    '63c8jh1n': {
+    'dkxk38vv': {
       'vi':
           '• Kế hoạch quản lý rừng\nĐối với chủ hợp đồng nhượng quyền, Kế hoạch quản lý rừng chi tiết được IDF phê duyệt. Cần kiểm tra chữ ký, con dấu của đại diện IDF.\n\n• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm, phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập. Cần kiểm tra tên, địa chỉ chủ sở hữu nhượng quyền, địa điểm, diện tích khu vực nhượng quyền.\n\n• Kế hoạch khai thác \nCần đối chiếu các loài được khai thác, phương pháp khai thác, các loại sản phẩm hoặc sản phẩm tương đương trong khai thác.\n',
       'en':
           '• Forest management plan\nFor holder of concession contract, a detailed forest management plan is approved by the IDF. Check signature, seal of IDF’s representative.\n\n• Map of concession area\nFor annual forest exploitation license, a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). Check the concession owner\'s name, address, location and concession area.\n\n• Harvesting plan \nCross-check species harvested, methods of harvesting, types of products or equivalent products in the harvesting.\n',
     },
-    'ekubxbkp': {
+    '9mwenucu': {
       'vi': 'Tham vấn cộng đồng địa phương và tuân thủ các quyền tập quán',
       'en':
           'Consultation with local communities and adherence to common law rights',
     },
-    'w8nkvbgy': {
+    '2z2po44v': {
       'vi':
           '• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm: Phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập.\n',
       'en':
-          '• Map of concession area\nFor annual forest exploitation license: a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). ',
+          '• Map of concession area\nFor annual forest exploitation license: a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). \n',
     },
-    'mlskd4ly': {
-      'vi': 'Muc',
+    'bqa1o5gi': {
+      'vi': 'VẬN TẢI VÀ THƯƠNG MẠI GỖ',
+      'en': 'TRADE & TRANSPORT ',
+    },
+    'y6g50520': {
+      'vi': '',
       'en': '',
     },
-    'qyseu6h5': {
-      'vi': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
-      'en': '',
-    },
-    '2vz8ufn4': {
+    'phbzup6y': {
       'vi':
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      'en': '',
+          'Thực hiện tuân thủ đầy đủ các thủ tục vận chuyển và kiểm tra xuất khẩu gỗ',
+      'en':
+          'Implement full compliance with timber transport and export inspections',
     },
-    'm2y5sjgw': {
-      'vi': 'Muc',
-      'en': '',
-    },
-    'gqieo7mm': {
-      'vi': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
-      'en': '',
-    },
-    'zf0snlto': {
+    'a75bwaiu': {
       'vi':
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          '• Giấy chứng nhận xuất xứ\nCần đối chiếu thông tin với Giấy phép khai thác rừng và Giấy phép quá cảnh, cần kiểm tra kỹ tỉnh xuất xứ, khối lượng và loài cây, Giấy chứng nhận xuất xứ phải được ký bởi Viện trưởng Viện Phát triển Lâm nghiệp cấp tỉnh cũng như nhân viên điểm kiểm tra hoặc nhân viên kho.\n',
+      'en':
+          '•\tCertificate of Origin \nCross-check with information on the Forest Exploitation License and Transit Permit, carefully check the province of origin and the volume and species of trees, and ensure the Certificate of Origin has been signed by the Provincial Head of the IDF as well as check point or warehouse personnel. \n',
+    },
+    'k4nr9hz3': {
+      'vi': 'Giấy chứng nhận xuất xứ',
+      'en': 'Certificate of Origin',
+    },
+    '7j7didu2': {
+      'vi':
+          '  \t• Giấy phép quá cảnh\nCần đối chiếu thông tin với Giấy chứng nhận xuất xứ và Giấy phép khai thác rừng, cần kiểm tra loài cây và khối lượng được quy định, và đảm bảo ngày còn hiệu lực và Giấy phép quá cảnh đã được ký bởi nhân viên kho và Viện trưởng Viện Phát triển Lâm nghiệp cấp tỉnh được đóng dấu của IDF.\n\n \t• Giấy phép xuất khẩu (Documento Único Provisório)\nCần đối chiếu với các tài liệu chuỗi cung ứng khác và đảm bảo Giấy phép đã được ký bởi Cục trưởng Cục Ngoại thương, Bộ Công Thương (Ministério da Indústria e Comércio). Cần kiểm tra chéo thông tin khối lượng sản phẩm, mô tả, phương tiện vận chuyển, chủng loại, giá trị hàng hóa của nhà xuất khẩu, nhà nhập khẩu trên giấy phép xuất khẩu với các tài liệu khác.\n',
+      'en':
+          '•\tTransit Permit \nCross-check with information on the Certificate of Origin and Forest Exploitation License, check the tree species and volumes specified, and ensure the date is valid and the Permit has been signed by warehouse personnel and signed and stamped by the Provincial Head of the IDF.\n\n•\tExport License (Documento Único Provisório)\nCross-check with other supply chain documents and ensure the License has been signed by the Director of External Trade, Ministry of Industry and Trade (Ministério da Indústria e Comércio). Cross-check information on product volume, description, means of transport, type and value of goods of exporters and importers on export License with other documents.\n',
+    },
+    'c06mhkop': {
+      'vi': 'Giấy phép xuất khẩu (Documento Único Provisório)',
+      'en': '•\tExport License (Documento Único Provisório)',
+    },
+    'gcv5lsmz': {
+      'vi':
+          'Đảm bảo tuân thủ Công ước về buôn bán quốc tế các loài động, thực vật hoang dã nguy cấp (CITES)',
+      'en':
+          'Assure compliance with the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)',
+    },
+    '1rq80wyc': {
+      'vi':
+          '• Giấy phép CITES\nGiấy phép CITES phải do Cơ quan quản lý CITES quốc gia của Bộ Môi trường cấp. Cần kiểm tra chữ ký và dấu của Cơ quan CITES, tên chữ ký người nộp đơn/ người xin giấy phép xuất khẩu, tên cảng xuất khẩu. \n',
+      'en':
+          '• CITES Permit\nCITES permits are issued by the National CITES Management Authority of the Ministry of Environment. Check the signature and seal of the CITES Management Authority, the name of the applicant / applicant\'s signature for the export permit, the name of the port of export.\n',
+    },
+    'rtpaelw6': {
+      'vi': 'Giấy phép CITES',
+      'en': 'CITES Permit',
+    },
+    'xfkpc0is': {
+      'vi': 'CHẾ BIẾN GỖ',
+      'en': 'PROCESSING ',
+    },
+    'ttbm0ku3': {
+      'vi': '',
       'en': '',
+    },
+    'uk7yiny1': {
+      'vi':
+          'Đảm bảo tuân thủ quy định về đăng ký kinh doanh và môi trường của cơ sở chế biến gỗ',
+      'en':
+          'Assure compliance with regulations on business registration and the environment of wood processing establishments',
+    },
+    'ktiek0rp': {
+      'vi':
+          '• Giấy phép môi trường vận hành \nGiấy phép môi trường vận hành phải do Bộ trưởng Bộ Môi trường hoặc người được ủy quyền ký và đóng dấu của Bộ Môi trường. Cần kiểm tra tài liệu, chữ ký và con dấu, thời hạn hiệu lực, nơi phát hành của giấy phép. \n',
+      'en':
+          '• Environmental Operating License (Licença Ambiental de Operação)  \nThe environmental operating license is signed by the Minister of Environment or an authorized person and stamped by the Ministry of Environment. Check the document, signature and seal, validity of date, place of issue of the license.\n',
+    },
+    'nyiisi5c': {
+      'vi': 'Giấy phép môi trường vận hành  (Licença Ambiental de Operação) ',
+      'en': 'Environmental Operating License (Licença Ambiental de Operação) ',
+    },
+    '22tdemgk': {
+      'vi':
+          '• Giấy phép thương mại\nGiấy phép thương mại phải do Tổng cục trưởng Tổng cục Nội thương, Bộ Công thương ký và đóng dấu. Cần kiểm tra tài liệu, chữ ký và con dấu, thời hạn hiệu lực, nơi phát hành của giấy phép.\n ',
+      'en':
+          '• Commercial license\nThe commercial license is signed and stamped by the Director General of the General Department of Internal Trade, Ministry of Industry and Trade. Check the document, signature and seal, validity of date, place of issue of the license.\n',
+    },
+    'nxeoxqqv': {
+      'vi':
+          'Đảm bảo rằng các doanh nghiệp chế biến đã tuân thủ các quy định về an toàn và vệ sinh lao động',
+      'en':
+          'Assure that timber processing companies have complied with health and safety regulations',
+    },
+    'h0jib9sp': {
+      'vi':
+          '• Báo cáo Sở An toàn và Vệ sinh lao động\nNhà nhập khẩu có thể yêu cầu nhà xuất khẩu gỗ cung cấp báo cáo Sở an toàn và vệ sinh lao động đối với các công ty có từ 50 nhân viên trở lên.\n',
+      'en':
+          '•\tOccupational Health and Safety Services Reports \nImporters can request monthly, quarterly and annual reports for companies with 50 or more employees.\n',
+    },
+    'oaem5cyd': {
+      'vi':
+          'Đảm bảo tuân thủ các quy định về trả lương và đóng góp an sinh xã hội',
+      'en':
+          'Assure compliance with regulations on paid the wage and made social security contributions',
+    },
+    'op0zt4f6': {
+      'vi':
+          '• Thư thông báo an sinh xã hội\nThư thông báo an sinh xã hội phải do Bộ Công chính – Lao động và An sinh xã hội (Ministério da Aministração Pública, Emprego y Segurança Social - MAPESS) ấn hành. Cần kiểm tra số lượng công nhân có thu nhập so với đóng góp an sinh xã hội, xác minh tại chỗ hồ sơ thanh toán phù hợp với Thư thông báo.\n',
+      'en':
+          '• The social security award letter \nThe social security award letter is published by the Ministry of Public Administration, Employment and Social Security (Ministério da Aministração Pública, Emprego y Segurança Social - MAPESS). Check the number of workers with income compared to social security contributions, verify on-site payment records in accordance with the award letter. \n',
+    },
+    'b205i7rn': {
+      'vi': 'CÁC VẤN ĐỀ XUYÊN SUỐT',
+      'en': 'CROSS-CUTTING ISSUES',
+    },
+    'ch0se8if': {
+      'vi': '',
+      'en': '',
+    },
+    'ix5wkahx': {
+      'vi': 'Tuân thủ các quy định về lao động',
+      'en': 'Compliance with labor regulations',
+    },
+    'ih0mqgl8': {
+      'vi':
+          '• Hợp đồng lao động \nHợp đồng lao động được áp dụng cho một số loại công việc nhất định. Xác minh tại chỗ người lao động có hợp đồng lao động phù hợp lĩnh vực cho phép.\n\n• Thư thông báo an sinh xã hội\nThư thông báo an sinh xã hội do MAPESS ấn hành.\n\n• Báo cáo Sở An toàn và Vệ sinh lao động\nNhà nhập khẩu có thể yêu cầu nhà xuất khẩu gỗ cung cấp báo cáo Sở an toàn và vệ sinh lao động đối với các công ty có từ 50 nhân viên trở lên.\n',
+      'en':
+          '• Labor contract\nLabor contract is applicable to certain types of work. Verify on-site the employee has a suitable labor contract in the sector.\n\n\t• The award letter social security\nThe award letter social security is published by the MAPESS.\n\n• Occupational Health and Safety Services Reports \nImporters can request Occupational Health and Safety Services Reports for companies with 50 or more employees.\n',
+    },
+    'hkp0w95m': {
+      'vi':
+          'Để biết thêm thông tin về Quy định pháp luật của gỗ từ Angola, vui lòng truy cập:',
+      'en': 'More information on Timber Legality Requirements from Angola at:',
     },
     'x73ls8ko': {
       'vi': 'Đất nước',
@@ -790,6 +899,72 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
           '• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm: Phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập.\n',
       'en':
           '• Map of concession area\nFor annual forest exploitation license: a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). ',
+    },
+    '3ebtp4j4': {
+      'vi': 'KHAI THÁC GỖ',
+      'en': 'HARVESTING TIMBER',
+    },
+    'qh4kuaji': {
+      'vi': 'Trách nhiệm giải trình là gì?',
+      'en': 'Due diligence and complexity',
+    },
+    'mv3syxw5': {
+      'vi':
+          '• Trách nhiệm giải trình là việc tổ chức, cá nhân tuân thủ các quy định pháp luật, chứng minh tính hợp pháp của gỗ và khả năng truy xuất nguồn gốc gỗ được mua bán.\n\n• Phạm vi của hệ thống trách nhiệm giải trình phụ thuộc vào số lượng và mức độ phức tạp của chuỗi cung ứng. Ví dụ: nhiều khâu trung gian và/ hoặc nhiều tổ chức, cá nhân tham gia chuỗi cung, nhiều loài gỗ và thành phần chủ gỗ\n',
+      'en':
+          '•\tDue diligence is the compliance of organizations and individuals with legal regulations in terms of tracking timber origin and proving the legality of traded timber products.\n\n•\tThe scope of a due diligence system depends on the number and the complexity of supply chains, e.g. multi-middleman and/or many organizations and individuals participating in the supply chain, many timber species and timber owners.\n',
+    },
+    'm0h92lb0': {
+      'vi': 'Đảm bảo quản lý và lập kế hoạch khai thác',
+      'en': 'Assure harvesting management and planning ',
+    },
+    'h7po2o08': {
+      'vi':
+          '• Kế hoạch quản lý rừng\nĐối với chủ hợp đồng nhượng quyền, Kế hoạch quản lý rừng chi tiết được IDF phê duyệt. Cần kiểm tra chữ ký, con dấu của đại diện IDF.\n\n• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm, phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập. Cần kiểm tra tên, địa chỉ chủ sở hữu nhượng quyền, địa điểm, diện tích khu vực nhượng quyền.\n\n• Kế hoạch khai thác \nCần đối chiếu các loài được khai thác, phương pháp khai thác, các loại sản phẩm hoặc sản phẩm tương đương trong khai thác.\n',
+      'en':
+          '• Forest management plan\nFor holder of concession contract, a detailed forest management plan is approved by the IDF. Check signature, seal of IDF’s representative.\n\n• Map of concession area\nFor annual forest exploitation license, a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). Check the concession owner\'s name, address, location and concession area.\n\n• Harvesting plan \nCross-check species harvested, methods of harvesting, types of products or equivalent products in the harvesting.\n',
+    },
+    'suhz6wou': {
+      'vi': 'Tham vấn cộng đồng địa phương và tuân thủ các quyền tập quán',
+      'en':
+          'Consultation with local communities and adherence to common law rights',
+    },
+    '67cetdbz': {
+      'vi':
+          '• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm: Phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập.\n',
+      'en':
+          '• Map of concession area\nFor annual forest exploitation license: a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). ',
+    },
+    'su6kcwbu': {
+      'vi':
+          'Gợi ý xây dựng và thực hiện trách nhiệm giải trình cho các nhà nhập khẩu',
+      'en':
+          'Suggestions for developing and implementing due diligence for importers',
+    },
+    'gxtj5mjf': {
+      'vi': 'Thực hiện trách nhiệm giải trình',
+      'en': 'Implementing due diligence',
+    },
+    'cypsfpyy': {
+      'vi':
+          '• Đánh giá tính hợp lệ của tài liệu về thời hạn, hiệu lực và thẩm quyền.\n• Kiểm tra mỗi tài liệu đã được cập nhật, đã được ký/ đóng dấu bởi cơ quan đủ thẩm quyền.\n• Đối chiếu tính nhất quán, logic giữa tài liệu này với tài liệu khác được cung cấp và với các sản phẩm thực tế (loại gỗ, khối lượng, địa điểm khai thác, v.v.) đang được bán/ xuất khẩu.\n• Các biện pháp cần thiết: yêu cầu bổ sung thông tin từ nhà cung cấp; tiến hành tham vấn các bên liên quan; kiểm định gỗ; cử cán bộ nghiệm thu nguồn gỗ; và/ hoặc thuê các bên thứ ba để kiểm toán thực địa.\n',
+      'en':
+          '•\tEvaluate the validity of documentation in term of date, period and authorization.\n•\tCheck that each document is up to date, has been signed/stamped by the authorized agencies.\n•\tCross-check consistent and logical within itself, with other provided documents and with actual products (species, volume, location of harvest, etc.) being sold/exported. \n•\tThe necessary measures: require further information from suppliers; conduct stakeholder consultation; test timber; send staff to check timber sources; and/or hire third parties for on-site checks.\n',
+    },
+    'he4mwusi': {
+      'vi': 'Đảm bảo quản lý và lập kế hoạch khai thác',
+      'en': 'Assure harvesting management and planning ',
+    },
+    'd8119xd4': {
+      'vi':
+          '• Kế hoạch quản lý rừng\nĐối với chủ hợp đồng nhượng quyền, Kế hoạch quản lý rừng chi tiết được IDF phê duyệt. Cần kiểm tra chữ ký, con dấu của đại diện IDF.\n\n• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm, phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập. Cần kiểm tra tên, địa chỉ chủ sở hữu nhượng quyền, địa điểm, diện tích khu vực nhượng quyền.\n\n• Kế hoạch khai thác \nCần đối chiếu các loài được khai thác, phương pháp khai thác, các loại sản phẩm hoặc sản phẩm tương đương trong khai thác.\n',
+      'en':
+          '• Forest management plan\nFor holder of concession contract, a detailed forest management plan is approved by the IDF. Check signature, seal of IDF’s representative.\n\n• Map of concession area\nFor annual forest exploitation license, a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). Check the concession owner\'s name, address, location and concession area.\n\n• Harvesting plan \nCross-check species harvested, methods of harvesting, types of products or equivalent products in the harvesting.\n',
+    },
+    'vwxfcsep': {
+      'vi':
+          'Để biết thêm thông tin về Quy định pháp luật của gỗ từ Angola, vui lòng truy cập:',
+      'en': 'More information on Timber Legality Requirements from Angola at:',
     },
     'ioru63sm': {
       'vi': 'Đất nước',
@@ -1818,98 +1993,164 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'vi': 'Tìm nước...',
       'en': '',
     },
-    'ahfudeqh': {
+    '8tlj44pb': {
       'vi': 'Quy định gỗ hợp pháp của Angola',
       'en': 'Angola’s Timber legality requirements',
     },
-    'cu37r7aj': {
+    'ayn5s462': {
       'vi':
           'Angola chưa tham gia đàm phán Hiệp định Đối tác Tự nguyện với Liên minh Châu Âu. Tuy nhiên, nước này có hệ thống pháp lý tương đối toàn diện, đảm bảo xác định, giảm thiểu rủi ro đối với các sản phẩm gỗ tuân thủ luật pháp quốc gia và giúp ngăn chặn việc nhập khẩu gỗ bất hợp pháp vào các quốc gia khác. Bằng cách nhận thức được các quy định pháp luật ở Angola được nêu rõ dưới đây, các cơ quan thực thi pháp luật và các nhà nhập khẩu có thể thực hiện các biện pháp kiểm soát và giảm thiểu rủi ro để ngăn chặn gỗ bị khai thác, vận chuyển và buôn bán bất hợp pháp từ Angola. Các nhà nhập khẩu và cơ quan xác minh có thể tham khảo hoặc sử dụng thông tin này trong việc thực hiện trách nhiệm giải trình.\n\n',
       'en':
           'Angola has not yet entered into negotiations for a Voluntary Partnership Agreement with the European Union. However, the country has a relatively comprehensive legal system that ensures identification and mitigation of risks for wood products in compliance with national laws and helping prevent the import of illegal timber into other countries. By being aware of the legal requirements in Angola highlighted below, law enforcement agencies and importers can implement control and risk mitigation measures to prevent timber being illegally harvested, transported and traded. Importers and verification agencies may refer to or use this definition in implementing due diligence.',
     },
-    '8gvey17q': {
+    'f545dp9d': {
       'vi':
           'Gợi ý xây dựng và thực hiện trách nhiệm giải trình cho các nhà nhập khẩu',
       'en':
           'Suggestions for developing and implementing due diligence for importers',
     },
-    'd2miqgf6': {
+    'qc243fql': {
       'vi': 'Trách nhiệm giải trình là gì?',
       'en': 'Due diligence and complexity',
     },
-    '1ikwtl6y': {
+    'cj2iagkf': {
       'vi':
           '• Trách nhiệm giải trình là việc tổ chức, cá nhân tuân thủ các quy định pháp luật, chứng minh tính hợp pháp của gỗ và khả năng truy xuất nguồn gốc gỗ được mua bán.\n\n• Phạm vi của hệ thống trách nhiệm giải trình phụ thuộc vào số lượng và mức độ phức tạp của chuỗi cung ứng. Ví dụ: nhiều khâu trung gian và/ hoặc nhiều tổ chức, cá nhân tham gia chuỗi cung, nhiều loài gỗ và thành phần chủ gỗ\n',
       'en':
           '•\tDue diligence is the compliance of organizations and individuals with legal regulations in terms of tracking timber origin and proving the legality of traded timber products.\n\n•\tThe scope of a due diligence system depends on the number and the complexity of supply chains, e.g. multi-middleman and/or many organizations and individuals participating in the supply chain, many timber species and timber owners.\n',
     },
-    'f4ocg4zj': {
+    'fm1xfv4k': {
       'vi': 'Phát triển hệ thống trách nhiệm giải trình',
       'en': 'Developing due diligence systems',
     },
-    'jootoe54': {
+    '8tdxcu94': {
       'vi':
           '• Phát triển một hệ thống với cam kết của lãnh đạo, các chính sách, quy trình, cơ cấu tổ chức, và mẫu biểu/ danh sách kiểm tra và những người chịu trách nhiệm chính.\n• Thu thập thông tin từ các chuỗi cung ứng.\n• Đánh giá các chuỗi cung ứng và đánh giá lỗ hổng/ rủi ro.\n• Thực hiện giảm thiểu rủi ro.\n• Lập và lưu trữ hồ sơ.\n',
       'en':
           '•\tDevelop a system with leadership commitment, policies, procedures, organizational structures, templates/checklists and key responsible persons.\n•\tGather information from supply chains.\n•\tEvaluate supply chains and gaps/risk assessments.\n•\tImplement risk mitigation\n•\tSet up and store documents. \n',
     },
-    'sh0l247m': {
+    'mf1o0in2': {
       'vi': 'Thực hiện trách nhiệm giải trình',
       'en': 'Implementing due diligence',
     },
-    'a9bkpzo2': {
+    'eonsl7o9': {
       'vi':
           '• Đánh giá tính hợp lệ của tài liệu về thời hạn, hiệu lực và thẩm quyền.\n• Kiểm tra mỗi tài liệu đã được cập nhật, đã được ký/ đóng dấu bởi cơ quan đủ thẩm quyền.\n• Đối chiếu tính nhất quán, logic giữa tài liệu này với tài liệu khác được cung cấp và với các sản phẩm thực tế (loại gỗ, khối lượng, địa điểm khai thác, v.v.) đang được bán/ xuất khẩu.\n• Các biện pháp cần thiết: yêu cầu bổ sung thông tin từ nhà cung cấp; tiến hành tham vấn các bên liên quan; kiểm định gỗ; cử cán bộ nghiệm thu nguồn gỗ; và/ hoặc thuê các bên thứ ba để kiểm toán thực địa.\n',
       'en':
           '•\tEvaluate the validity of documentation in term of date, period and authorization.\n•\tCheck that each document is up to date, has been signed/stamped by the authorized agencies.\n•\tCross-check consistent and logical within itself, with other provided documents and with actual products (species, volume, location of harvest, etc.) being sold/exported. \n•\tThe necessary measures: require further information from suppliers; conduct stakeholder consultation; test timber; send staff to check timber sources; and/or hire third parties for on-site checks.\n',
     },
-    'yn7sy7rq': {
+    'pbabp7ax': {
       'vi':
           'Các tài liệu sau đây được chọn theo định nghĩa gỗ hợp pháp của Angola và/ hoặc các quy định pháp luật trong các giai đoạn khác nhau của chuỗi cung ứng.',
       'en':
           'The following documents are selected in accordance with Angola’s legal definition and/or legal requirements in different stages of the supply chain.',
     },
-    'co1ioqlp': {
+    '3pmzpxrb': {
       'vi': 'KHAI THÁC GỖ',
       'en': 'HARVESTING TIMBER',
     },
-    'fnuokr8v': {
+    '13p029ue': {
       'vi': 'Quyền khai thác',
       'en': 'Harvesting rights',
     },
-    'auhfkxsy': {
+    '674l7pol': {
       'vi':
           '• Giấy phép khai thác rừng hàng năm (Licenca de Exploração florestal)\nBằng chứng từ người có quyền khai thác các loại gỗ cụ thể, với khối lượng cho phép nhất định từ diện tích rừng xác định. Đối chiếu thông tin với Giấy chứng nhận xuất xứ và Giấy phép quá cảnh. Cần kiểm tra kỹ tên chủ Giấy phép và tỉnh được chỉ định, và đảm bảo Giấy phép đã được ký và đóng dấu của Tổng Giám đốc Viện Phát triển Lâm nghiệp ((Instituto de Desenvolvimento Florestal - IDF).\n\n• Báo cáo đánh giá tác động môi trường\nBáo cáo đánh giá tác động môi trường đã được Bộ Môi trường và Bộ Nông Lâm nghiệp phê duyệt. Cần kiểm tra tên của chủ dự án, chữ ký và đóng dấu, thời gian có hiệu lực và hoạt động giảm thiểu theo kế hoạch.\n',
       'en':
           '•\tAnnual forest exploitation license (Licenca de Exploração florestal)   \nProvide verifier from the holder of the right to harvest specific timber species with a certain allowable volume from a defined forest area. Cross-check information with the Certificate of Origin and the Transit Permit. Carefully check the name of the License holder and the province specified, and ensure the License has been signed and stamped by the Director General of the Forestry Development Institute (Instituto de Desenvolvimento Florestal - IDF).\n\n• Environmental impact assessment report \nThe environmental impact assessment report has been approved by the Ministry of Environment and the Ministry of Agriculture and Forestry. Check project owner\'s name, signature and stamp, date is valid and planned mitigation action.\n',
     },
-    'qagz67g9': {
+    '6p81xd5o': {
       'vi':
           'Giấy phép khai thác rừng hàng năm (Licenca de Exploração florestal)',
       'en':
           'Annual forest exploitation license (Licenca de Exploração florestal) ',
     },
-    'q4tvbl0t': {
+    '53ljmv9p': {
       'vi': 'Đảm bảo quản lý và lập kế hoạch khai thác',
       'en': 'Assure harvesting management and planning ',
     },
-    'okoc8yyw': {
+    'u393i49f': {
       'vi':
           '• Kế hoạch quản lý rừng\nĐối với chủ hợp đồng nhượng quyền, Kế hoạch quản lý rừng chi tiết được IDF phê duyệt. Cần kiểm tra chữ ký, con dấu của đại diện IDF.\n\n• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm, phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập. Cần kiểm tra tên, địa chỉ chủ sở hữu nhượng quyền, địa điểm, diện tích khu vực nhượng quyền.\n\n• Kế hoạch khai thác \nCần đối chiếu các loài được khai thác, phương pháp khai thác, các loại sản phẩm hoặc sản phẩm tương đương trong khai thác.\n',
       'en':
           '• Forest management plan\nFor holder of concession contract, a detailed forest management plan is approved by the IDF. Check signature, seal of IDF’s representative.\n\n• Map of concession area\nFor annual forest exploitation license, a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). Check the concession owner\'s name, address, location and concession area.\n\n• Harvesting plan \nCross-check species harvested, methods of harvesting, types of products or equivalent products in the harvesting.\n',
     },
-    'ky6nrsgq': {
+    '60mw59u3': {
       'vi': 'Tham vấn cộng đồng địa phương và tuân thủ các quyền tập quán',
       'en':
           'Consultation with local communities and adherence to common law rights',
     },
-    '5xb32wc6': {
+    'eygevd3z': {
       'vi':
           '• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm: Phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập.\n',
       'en':
           '• Map of concession area\nFor annual forest exploitation license: a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). ',
+    },
+    '1ngia83x': {
+      'vi': 'KHAI THÁC GỖ',
+      'en': 'HARVESTING TIMBER',
+    },
+    'ogm2jvzq': {
+      'vi': 'Trách nhiệm giải trình là gì?',
+      'en': 'Due diligence and complexity',
+    },
+    'xlgxnw1w': {
+      'vi':
+          '• Trách nhiệm giải trình là việc tổ chức, cá nhân tuân thủ các quy định pháp luật, chứng minh tính hợp pháp của gỗ và khả năng truy xuất nguồn gốc gỗ được mua bán.\n\n• Phạm vi của hệ thống trách nhiệm giải trình phụ thuộc vào số lượng và mức độ phức tạp của chuỗi cung ứng. Ví dụ: nhiều khâu trung gian và/ hoặc nhiều tổ chức, cá nhân tham gia chuỗi cung, nhiều loài gỗ và thành phần chủ gỗ\n',
+      'en':
+          '•\tDue diligence is the compliance of organizations and individuals with legal regulations in terms of tracking timber origin and proving the legality of traded timber products.\n\n•\tThe scope of a due diligence system depends on the number and the complexity of supply chains, e.g. multi-middleman and/or many organizations and individuals participating in the supply chain, many timber species and timber owners.\n',
+    },
+    'p8eptqlh': {
+      'vi': 'Đảm bảo quản lý và lập kế hoạch khai thác',
+      'en': 'Assure harvesting management and planning ',
+    },
+    '0zw38yd4': {
+      'vi':
+          '• Kế hoạch quản lý rừng\nĐối với chủ hợp đồng nhượng quyền, Kế hoạch quản lý rừng chi tiết được IDF phê duyệt. Cần kiểm tra chữ ký, con dấu của đại diện IDF.\n\n• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm, phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập. Cần kiểm tra tên, địa chỉ chủ sở hữu nhượng quyền, địa điểm, diện tích khu vực nhượng quyền.\n\n• Kế hoạch khai thác \nCần đối chiếu các loài được khai thác, phương pháp khai thác, các loại sản phẩm hoặc sản phẩm tương đương trong khai thác.\n',
+      'en':
+          '• Forest management plan\nFor holder of concession contract, a detailed forest management plan is approved by the IDF. Check signature, seal of IDF’s representative.\n\n• Map of concession area\nFor annual forest exploitation license, a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). Check the concession owner\'s name, address, location and concession area.\n\n• Harvesting plan \nCross-check species harvested, methods of harvesting, types of products or equivalent products in the harvesting.\n',
+    },
+    'wen0y6cp': {
+      'vi': 'Tham vấn cộng đồng địa phương và tuân thủ các quyền tập quán',
+      'en':
+          'Consultation with local communities and adherence to common law rights',
+    },
+    'ns83d7sf': {
+      'vi':
+          '• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm: Phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập.\n',
+      'en':
+          '• Map of concession area\nFor annual forest exploitation license: a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). ',
+    },
+    'mzybpba2': {
+      'vi':
+          'Gợi ý xây dựng và thực hiện trách nhiệm giải trình cho các nhà nhập khẩu',
+      'en':
+          'Suggestions for developing and implementing due diligence for importers',
+    },
+    'xt1si07x': {
+      'vi': 'Thực hiện trách nhiệm giải trình',
+      'en': 'Implementing due diligence',
+    },
+    'nm1dhbtv': {
+      'vi':
+          '• Đánh giá tính hợp lệ của tài liệu về thời hạn, hiệu lực và thẩm quyền.\n• Kiểm tra mỗi tài liệu đã được cập nhật, đã được ký/ đóng dấu bởi cơ quan đủ thẩm quyền.\n• Đối chiếu tính nhất quán, logic giữa tài liệu này với tài liệu khác được cung cấp và với các sản phẩm thực tế (loại gỗ, khối lượng, địa điểm khai thác, v.v.) đang được bán/ xuất khẩu.\n• Các biện pháp cần thiết: yêu cầu bổ sung thông tin từ nhà cung cấp; tiến hành tham vấn các bên liên quan; kiểm định gỗ; cử cán bộ nghiệm thu nguồn gỗ; và/ hoặc thuê các bên thứ ba để kiểm toán thực địa.\n',
+      'en':
+          '•\tEvaluate the validity of documentation in term of date, period and authorization.\n•\tCheck that each document is up to date, has been signed/stamped by the authorized agencies.\n•\tCross-check consistent and logical within itself, with other provided documents and with actual products (species, volume, location of harvest, etc.) being sold/exported. \n•\tThe necessary measures: require further information from suppliers; conduct stakeholder consultation; test timber; send staff to check timber sources; and/or hire third parties for on-site checks.\n',
+    },
+    'mswqtatk': {
+      'vi': 'Đảm bảo quản lý và lập kế hoạch khai thác',
+      'en': 'Assure harvesting management and planning ',
+    },
+    'f6vp08jy': {
+      'vi':
+          '• Kế hoạch quản lý rừng\nĐối với chủ hợp đồng nhượng quyền, Kế hoạch quản lý rừng chi tiết được IDF phê duyệt. Cần kiểm tra chữ ký, con dấu của đại diện IDF.\n\n• Bản đồ khu vực nhượng quyền\nĐối với giấy phép khai thác rừng hàng năm, phải có bản đồ khu vực nhượng quyền 1/ 100.000 do cơ quan địa phương của Viện Đo đạc và Bản đồ Angola (IGCA) lập. Cần kiểm tra tên, địa chỉ chủ sở hữu nhượng quyền, địa điểm, diện tích khu vực nhượng quyền.\n\n• Kế hoạch khai thác \nCần đối chiếu các loài được khai thác, phương pháp khai thác, các loại sản phẩm hoặc sản phẩm tương đương trong khai thác.\n',
+      'en':
+          '• Forest management plan\nFor holder of concession contract, a detailed forest management plan is approved by the IDF. Check signature, seal of IDF’s representative.\n\n• Map of concession area\nFor annual forest exploitation license, a map of the concession area of 1/100,000 is prepared by the local agency of the Institute of Geodesy and Cartography of Angola (Instituto Geodesía e Cartografia de Angola - IGCA). Check the concession owner\'s name, address, location and concession area.\n\n• Harvesting plan \nCross-check species harvested, methods of harvesting, types of products or equivalent products in the harvesting.\n',
+    },
+    '3m3ok32q': {
+      'vi':
+          'Để biết thêm thông tin về Quy định pháp luật của gỗ từ Angola, vui lòng truy cập:',
+      'en': 'More information on Timber Legality Requirements from Angola at:',
     },
     '5qs4iw1f': {
       'vi': 'Đất nước',

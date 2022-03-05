@@ -267,15 +267,17 @@ class _DetailPageAngolaWidgetState extends State<DetailPageAngolaWidget> {
                         child: ExpandablePanel(
                           header: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(5, 0, 0, 0),
-                            child: AutoSizeText(
+                            child: Text(
                               FFLocalizations.of(context).getText(
                                 '90al7d9s' /* Quy định gỗ hợp pháp của Angol... */,
                               ),
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.w600,
-                                fontSize: 16,
-                              ),
+                              textAlign: TextAlign.start,
+                              style:
+                                  FlutterFlowTheme.of(context).title1.override(
+                                        fontFamily: 'Poppins',
+                                        color: Colors.black,
+                                        fontSize: 16,
+                                      ),
                             ),
                           ),
                           collapsed: Container(
@@ -300,7 +302,7 @@ class _DetailPageAngolaWidgetState extends State<DetailPageAngolaWidget> {
                               Padding(
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(2, 0, 2, 0),
-                                child: AutoSizeText(
+                                child: Text(
                                   FFLocalizations.of(context).getText(
                                     '8ifm7qdu' /* Angola chưa tham gia đàm phán ... */,
                                   ),
@@ -308,7 +310,7 @@ class _DetailPageAngolaWidgetState extends State<DetailPageAngolaWidget> {
                                       .bodyText1
                                       .override(
                                         fontFamily: 'Poppins',
-                                        color: Color(0x8A000000),
+                                        color: Colors.black,
                                         fontWeight: FontWeight.normal,
                                       ),
                                 ),
@@ -652,16 +654,12 @@ class _DetailPageAngolaWidgetState extends State<DetailPageAngolaWidget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 5),
                   child: Container(
-                    height: 60,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(5),
-                      border: Border.all(
-                        color: FlutterFlowTheme.of(context).secondaryText,
-                      ),
                     ),
                     child: Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(2, 2, 2, 0),
-                      child: AutoSizeText(
+                      child: Text(
                         FFLocalizations.of(context).getText(
                           'kc3qwg3p' /* Các tài liệu sau đây được chọn... */,
                         ),
@@ -669,7 +667,7 @@ class _DetailPageAngolaWidgetState extends State<DetailPageAngolaWidget> {
                         style: FlutterFlowTheme.of(context).bodyText2.override(
                               fontFamily: 'Poppins',
                               color: Colors.black,
-                              fontSize: 12,
+                              fontSize: 13,
                               fontWeight: FontWeight.normal,
                               fontStyle: FontStyle.italic,
                             ),
@@ -2052,12 +2050,8 @@ Hợp đồng ... */
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 1),
                   child: Container(
-                    height: 150,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(5),
-                      border: Border.all(
-                        color: Colors.black,
-                      ),
                     ),
                     alignment: AlignmentDirectional(0, 0.6000000000000001),
                     child: SingleChildScrollView(
@@ -2071,10 +2065,11 @@ Hợp đồng ... */
                             ),
                             textAlign: TextAlign.center,
                             style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
+                                FlutterFlowTheme.of(context).bodyText2.override(
                                       fontFamily: 'Poppins',
                                       color: Colors.black,
-                                      fontWeight: FontWeight.w300,
+                                      fontSize: 13,
+                                      fontWeight: FontWeight.normal,
                                       fontStyle: FontStyle.italic,
                                     ),
                           ),
