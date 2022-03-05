@@ -44,16 +44,6 @@ class FFLocalizationsDelegate extends LocalizationsDelegate<FFLocalizations> {
 final kTranslationsMap = <Map<String, Map<String, String>>>[
   // Home
   {
-    '3jiuun36': {
-      'vi': 'Thực thi các Hệ thống bảo đảm tính hợp pháp của gỗ',
-      'en': 'Implementing Timber Legality Assurance Systems ',
-    },
-    'ayictqw9': {
-      'vi':
-          'Hướng dẫn tuân thủ các yêu cầu về tính hợp pháp của gỗ xuất xứ từ các nước xuất khẩu gỗ quan trọng và hỗ trợ trách nhiệm giải trình',
-      'en':
-          'A guide to comply with timber legality requirements in key timber exporting countries to support due diligence',
-    },
     'x70g5tzd': {
       'vi': 'Home',
       'en': 'Home',
@@ -402,6 +392,23 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     '6gzw4h1z': {
       'vi': 'Đất nước',
       'en': 'Coutries',
+    },
+  },
+  // WelcomeHome
+  {
+    'qole4qpx': {
+      'vi': 'Thực thi các Hệ thống bảo đảm tính hợp pháp của gỗ',
+      'en': 'Implementing Timber Legality Assurance Systems ',
+    },
+    'lmdzg2nz': {
+      'vi':
+          'Hướng dẫn tuân thủ các yêu cầu về tính hợp pháp của gỗ xuất xứ từ các nước xuất khẩu gỗ quan trọng và hỗ trợ trách nhiệm giải trình',
+      'en':
+          'A guide to comply with timber legality requirements in key timber exporting countries to support due diligence',
+    },
+    '5o63eigt': {
+      'vi': 'Home',
+      'en': 'Home',
     },
   },
 ].reduce((a, b) => a..addAll(b));
