@@ -8,7 +8,12 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class DetailPageDRC1Widget extends StatefulWidget {
-  const DetailPageDRC1Widget({Key key}) : super(key: key);
+  const DetailPageDRC1Widget({
+    Key key,
+    this.country,
+  }) : super(key: key);
+
+  final String country;
 
   @override
   _DetailPageDRC1WidgetState createState() => _DetailPageDRC1WidgetState();
@@ -56,22 +61,8 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                             color: Color(0xFFDBE2E7),
                           ),
                         ),
-                        child: Container(
-                          width: MediaQuery.of(context).size.width,
-                          height: 140,
-                          decoration: BoxDecoration(
-                            color:
-                                FlutterFlowTheme.of(context).primaryBackground,
-                            image: DecorationImage(
-                              fit: BoxFit.cover,
-                              image: Image.asset(
-                                'assets/images/appbar_background.jpg',
-                              ).image,
-                            ),
-                            border: Border.all(
-                              color: Color(0xFFDBE2E7),
-                            ),
-                          ),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
                             mainAxisAlignment: MainAxisAlignment.end,
@@ -93,7 +84,7 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                                             },
                                             text: FFLocalizations.of(context)
                                                 .getText(
-                                              'wcyalibt' /*  */,
+                                              '068eo15e' /* Quay lại */,
                                             ),
                                             icon: Icon(
                                               Icons.arrow_back,
@@ -119,39 +110,6 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                                             ),
                                           ),
                                         ],
-                                      ),
-                                    ),
-                                    InkWell(
-                                      onTap: () async {
-                                        setAppLanguage(context, 'en');
-                                      },
-                                      child: ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          'assets/images/en.png',
-                                          width: 40,
-                                          height: 30,
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 0, 10, 0),
-                                      child: InkWell(
-                                        onTap: () async {
-                                          setAppLanguage(context, 'vi');
-                                        },
-                                        child: ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(10),
-                                          child: Image.asset(
-                                            'assets/images/vi.png',
-                                            width: 40,
-                                            height: 30,
-                                            fit: BoxFit.cover,
-                                          ),
-                                        ),
                                       ),
                                     ),
                                   ],
@@ -196,7 +154,7 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                                                 labelText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  'kl8pg3j0' /* Tìm nước... */,
+                                                  'fsmx1u2g' /* Tìm nước... */,
                                                 ),
                                                 labelStyle: FlutterFlowTheme.of(
                                                         context)
@@ -211,7 +169,7 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                                                 hintText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  'td2z07y1' /* Tìm nước... */,
+                                                  'ssit2iq3' /* Tìm nước... */,
                                                 ),
                                                 hintStyle: FlutterFlowTheme.of(
                                                         context)

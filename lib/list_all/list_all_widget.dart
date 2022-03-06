@@ -61,49 +61,11 @@ class _ListAllWidgetState extends State<ListAllWidget> {
                       ),
                     ),
                     child: Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 34, 0, 0),
+                      padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.end,
                         children: [
-                          Padding(
-                            padding:
-                                EdgeInsetsDirectional.fromSTEB(16, 0, 8, 0),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.max,
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              children: [
-                                InkWell(
-                                  onTap: () async {
-                                    setAppLanguage(context, 'en');
-                                  },
-                                  child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(0),
-                                    child: Image.asset(
-                                      'assets/images/en.png',
-                                      width: 40,
-                                      height: 30,
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                ),
-                                Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      0, 0, 10, 0),
-                                  child: InkWell(
-                                    onTap: () async {
-                                      setAppLanguage(context, 'vi');
-                                    },
-                                    child: Image.asset(
-                                      'assets/images/vi.png',
-                                      width: 40,
-                                      height: 30,
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
                           Padding(
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),

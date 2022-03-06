@@ -8,7 +8,12 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class DetailPageGuinea1Widget extends StatefulWidget {
-  const DetailPageGuinea1Widget({Key key}) : super(key: key);
+  const DetailPageGuinea1Widget({
+    Key key,
+    this.country,
+  }) : super(key: key);
+
+  final String country;
 
   @override
   _DetailPageGuinea1WidgetState createState() =>
@@ -57,22 +62,8 @@ class _DetailPageGuinea1WidgetState extends State<DetailPageGuinea1Widget> {
                             color: Color(0xFFDBE2E7),
                           ),
                         ),
-                        child: Container(
-                          width: MediaQuery.of(context).size.width,
-                          height: 140,
-                          decoration: BoxDecoration(
-                            color:
-                                FlutterFlowTheme.of(context).primaryBackground,
-                            image: DecorationImage(
-                              fit: BoxFit.cover,
-                              image: Image.asset(
-                                'assets/images/appbar_background.jpg',
-                              ).image,
-                            ),
-                            border: Border.all(
-                              color: Color(0xFFDBE2E7),
-                            ),
-                          ),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
                             mainAxisAlignment: MainAxisAlignment.end,
@@ -94,7 +85,7 @@ class _DetailPageGuinea1WidgetState extends State<DetailPageGuinea1Widget> {
                                             },
                                             text: FFLocalizations.of(context)
                                                 .getText(
-                                              'hcrpe42n' /*  */,
+                                              'yph801jf' /* Quay lại */,
                                             ),
                                             icon: Icon(
                                               Icons.arrow_back,
@@ -120,39 +111,6 @@ class _DetailPageGuinea1WidgetState extends State<DetailPageGuinea1Widget> {
                                             ),
                                           ),
                                         ],
-                                      ),
-                                    ),
-                                    InkWell(
-                                      onTap: () async {
-                                        setAppLanguage(context, 'en');
-                                      },
-                                      child: ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          'assets/images/en.png',
-                                          width: 40,
-                                          height: 30,
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 0, 10, 0),
-                                      child: InkWell(
-                                        onTap: () async {
-                                          setAppLanguage(context, 'vi');
-                                        },
-                                        child: ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(10),
-                                          child: Image.asset(
-                                            'assets/images/vi.png',
-                                            width: 40,
-                                            height: 30,
-                                            fit: BoxFit.cover,
-                                          ),
-                                        ),
                                       ),
                                     ),
                                   ],
@@ -197,7 +155,7 @@ class _DetailPageGuinea1WidgetState extends State<DetailPageGuinea1Widget> {
                                                 labelText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  'rl7vgvk2' /* Tìm nước... */,
+                                                  'movk4g7z' /* Tìm nước... */,
                                                 ),
                                                 labelStyle: FlutterFlowTheme.of(
                                                         context)
@@ -212,7 +170,7 @@ class _DetailPageGuinea1WidgetState extends State<DetailPageGuinea1Widget> {
                                                 hintText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  'gxyqrjvl' /* Tìm nước... */,
+                                                  'xrw67bvt' /* Tìm nước... */,
                                                 ),
                                                 hintStyle: FlutterFlowTheme.of(
                                                         context)

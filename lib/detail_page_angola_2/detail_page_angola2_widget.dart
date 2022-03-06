@@ -72,193 +72,172 @@ class _DetailPageAngola2WidgetState extends State<DetailPageAngola2Widget> {
                           color: Color(0xFFDBE2E7),
                         ),
                       ),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.max,
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        children: [
-                          Padding(
-                            padding:
-                                EdgeInsetsDirectional.fromSTEB(16, 0, 8, 0),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.max,
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              children: [
-                                Expanded(
+                      child: Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.max,
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Padding(
+                              padding:
+                                  EdgeInsetsDirectional.fromSTEB(16, 0, 8, 0),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: [
+                                  Expanded(
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        FFButtonWidget(
+                                          onPressed: () async {
+                                            Navigator.pop(context);
+                                          },
+                                          text: FFLocalizations.of(context)
+                                              .getText(
+                                            'hsmn7bol' /* Quay lại */,
+                                          ),
+                                          icon: Icon(
+                                            Icons.arrow_back,
+                                            size: 15,
+                                          ),
+                                          options: FFButtonOptions(
+                                            width: 80,
+                                            height: 30,
+                                            color: Color(0xFF1E7C23),
+                                            textStyle:
+                                                FlutterFlowTheme.of(context)
+                                                    .subtitle2
+                                                    .override(
+                                                      fontFamily: 'Poppins',
+                                                      color: Color(0xFFF1F8E9),
+                                                      fontSize: 14,
+                                                      fontWeight:
+                                                          FontWeight.w100,
+                                                    ),
+                                            borderSide: BorderSide(
+                                              color: Color(0xFFF1F8E9),
+                                            ),
+                                            borderRadius: 10,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Padding(
+                              padding:
+                                  EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
+                              child: Card(
+                                clipBehavior: Clip.antiAliasWithSaveLayer,
+                                color: Colors.white,
+                                elevation: 3,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      8, 0, 8, 0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
-                                      FFButtonWidget(
-                                        onPressed: () async {
-                                          Navigator.pop(context);
-                                        },
-                                        text:
-                                            FFLocalizations.of(context).getText(
-                                          '2okfiwj3' /* Back */,
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            4, 0, 4, 0),
+                                        child: Icon(
+                                          Icons.search_rounded,
+                                          color: Color(0xFF95A1AC),
+                                          size: 24,
                                         ),
-                                        icon: Icon(
-                                          Icons.arrow_back,
-                                          size: 15,
-                                        ),
-                                        options: FFButtonOptions(
-                                          width: 100,
-                                          height: 35,
-                                          color: FlutterFlowTheme.of(context)
-                                              .primaryColor,
-                                          textStyle:
-                                              FlutterFlowTheme.of(context)
-                                                  .subtitle2
+                                      ),
+                                      Expanded(
+                                        flex: 10,
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  4, 0, 0, 0),
+                                          child: TextFormField(
+                                            controller: textController,
+                                            obscureText: false,
+                                            decoration: InputDecoration(
+                                              labelText:
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                'b2u72b8r' /* Tìm nước... */,
+                                              ),
+                                              labelStyle: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyText1
                                                   .override(
-                                                    fontFamily: 'Poppins',
-                                                    color: Color(0xFFF1F8E9),
+                                                    fontFamily: 'Lexend Deca',
+                                                    color: Color(0xFF82878C),
                                                     fontSize: 14,
+                                                    fontWeight:
+                                                        FontWeight.normal,
                                                   ),
-                                          borderSide: BorderSide(
-                                            color: Color(0xFFF1F8E9),
-                                            width: 1,
+                                              hintText:
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                'h8djnwzp' /* Tìm nước... */,
+                                              ),
+                                              hintStyle: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyText1
+                                                  .override(
+                                                    fontFamily: 'Lexend Deca',
+                                                    color: Color(0xFF95A1AC),
+                                                    fontSize: 14,
+                                                    fontWeight:
+                                                        FontWeight.normal,
+                                                  ),
+                                              enabledBorder:
+                                                  UnderlineInputBorder(
+                                                borderSide: BorderSide(
+                                                  color: Color(0x004B39EF),
+                                                  width: 1,
+                                                ),
+                                                borderRadius:
+                                                    const BorderRadius.only(
+                                                  topLeft: Radius.circular(4.0),
+                                                  topRight:
+                                                      Radius.circular(4.0),
+                                                ),
+                                              ),
+                                              focusedBorder:
+                                                  UnderlineInputBorder(
+                                                borderSide: BorderSide(
+                                                  color: Color(0x004B39EF),
+                                                  width: 1,
+                                                ),
+                                                borderRadius:
+                                                    const BorderRadius.only(
+                                                  topLeft: Radius.circular(4.0),
+                                                  topRight:
+                                                      Radius.circular(4.0),
+                                                ),
+                                              ),
+                                            ),
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText1
+                                                .override(
+                                                  fontFamily: 'Lexend Deca',
+                                                  color: Color(0xFF151B1E),
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.normal,
+                                                ),
+                                            textAlign: TextAlign.start,
                                           ),
-                                          borderRadius: 12,
                                         ),
                                       ),
                                     ],
                                   ),
                                 ),
-                                InkWell(
-                                  onTap: () async {
-                                    setAppLanguage(context, 'en');
-                                  },
-                                  child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(0),
-                                    child: Image.asset(
-                                      'assets/images/en.png',
-                                      width: 40,
-                                      height: 30,
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                ),
-                                Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      0, 0, 10, 0),
-                                  child: InkWell(
-                                    onTap: () async {
-                                      setAppLanguage(context, 'vi');
-                                    },
-                                    child: Image.asset(
-                                      'assets/images/vi.png',
-                                      width: 40,
-                                      height: 30,
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding:
-                                EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
-                            child: Card(
-                              clipBehavior: Clip.antiAliasWithSaveLayer,
-                              color: Colors.white,
-                              elevation: 3,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                              child: Padding(
-                                padding:
-                                    EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.max,
-                                  children: [
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          4, 0, 4, 0),
-                                      child: Icon(
-                                        Icons.search_rounded,
-                                        color: Color(0xFF95A1AC),
-                                        size: 24,
-                                      ),
-                                    ),
-                                    Expanded(
-                                      flex: 10,
-                                      child: Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            4, 0, 0, 0),
-                                        child: TextFormField(
-                                          controller: textController,
-                                          obscureText: false,
-                                          decoration: InputDecoration(
-                                            labelText:
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                              '69xo7x3z' /* Tìm nước... */,
-                                            ),
-                                            labelStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyText1
-                                                    .override(
-                                                      fontFamily: 'Lexend Deca',
-                                                      color: Color(0xFF82878C),
-                                                      fontSize: 14,
-                                                      fontWeight:
-                                                          FontWeight.normal,
-                                                    ),
-                                            hintText:
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                              'n3az2tot' /* Tìm nước... */,
-                                            ),
-                                            hintStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyText1
-                                                    .override(
-                                                      fontFamily: 'Lexend Deca',
-                                                      color: Color(0xFF95A1AC),
-                                                      fontSize: 14,
-                                                      fontWeight:
-                                                          FontWeight.normal,
-                                                    ),
-                                            enabledBorder: UnderlineInputBorder(
-                                              borderSide: BorderSide(
-                                                color: Color(0x004B39EF),
-                                                width: 1,
-                                              ),
-                                              borderRadius:
-                                                  const BorderRadius.only(
-                                                topLeft: Radius.circular(4.0),
-                                                topRight: Radius.circular(4.0),
-                                              ),
-                                            ),
-                                            focusedBorder: UnderlineInputBorder(
-                                              borderSide: BorderSide(
-                                                color: Color(0x004B39EF),
-                                                width: 1,
-                                              ),
-                                              borderRadius:
-                                                  const BorderRadius.only(
-                                                topLeft: Radius.circular(4.0),
-                                                topRight: Radius.circular(4.0),
-                                              ),
-                                            ),
-                                          ),
-                                          style: FlutterFlowTheme.of(context)
-                                              .bodyText1
-                                              .override(
-                                                fontFamily: 'Lexend Deca',
-                                                color: Color(0xFF151B1E),
-                                                fontSize: 14,
-                                                fontWeight: FontWeight.normal,
-                                              ),
-                                          textAlign: TextAlign.start,
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   ),

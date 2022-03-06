@@ -60,49 +60,11 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       ),
                     ),
                     child: Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 34, 0, 0),
+                      padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.end,
                         children: [
-                          Padding(
-                            padding:
-                                EdgeInsetsDirectional.fromSTEB(16, 0, 8, 0),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.max,
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              children: [
-                                InkWell(
-                                  onTap: () async {
-                                    setAppLanguage(context, 'en');
-                                  },
-                                  child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(0),
-                                    child: Image.asset(
-                                      'assets/images/en.png',
-                                      width: 40,
-                                      height: 30,
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                ),
-                                Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      0, 0, 10, 0),
-                                  child: InkWell(
-                                    onTap: () async {
-                                      setAppLanguage(context, 'vi');
-                                    },
-                                    child: Image.asset(
-                                      'assets/images/vi.png',
-                                      width: 40,
-                                      height: 30,
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
                           Padding(
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
@@ -233,7 +195,9 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageAngola1Widget(),
+                          builder: (context) => DetailPageAngola1Widget(
+                            coutry: 'angola',
+                          ),
                         ),
                       );
                     },
@@ -295,7 +259,9 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageCampuchia1Widget(),
+                          builder: (context) => DetailPageCampuchia1Widget(
+                            coutry: 'cambodia',
+                          ),
                         ),
                       );
                     },
@@ -357,7 +323,9 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageCameroon1Widget(),
+                          builder: (context) => DetailPageCameroon1Widget(
+                            country: 'cameroon',
+                          ),
                         ),
                       );
                     },
@@ -419,7 +387,9 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageCongo1Widget(),
+                          builder: (context) => DetailPageCongo1Widget(
+                            country: 'congo',
+                          ),
                         ),
                       );
                     },
@@ -481,7 +451,9 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageDRC1Widget(),
+                          builder: (context) => DetailPageDRC1Widget(
+                            country: 'DRC',
+                          ),
                         ),
                       );
                     },
@@ -543,7 +515,9 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageGabon1Widget(),
+                          builder: (context) => DetailPageGabon1Widget(
+                            country: 'gabon',
+                          ),
                         ),
                       );
                     },
@@ -605,7 +579,9 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageGhana1Widget(),
+                          builder: (context) => DetailPageGhana1Widget(
+                            country: 'ghana',
+                          ),
                         ),
                       );
                     },
@@ -667,7 +643,9 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageGuinea1Widget(),
+                          builder: (context) => DetailPageGuinea1Widget(
+                            country: 'guinea',
+                          ),
                         ),
                       );
                     },
@@ -729,7 +707,9 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageLao1Widget(),
+                          builder: (context) => DetailPageLao1Widget(
+                            country: 'laos',
+                          ),
                         ),
                       );
                     },
@@ -791,7 +771,9 @@ class _GridAllWidgetState extends State<GridAllWidget> {
                       await Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DetailPageNigeria1Widget(),
+                          builder: (context) => DetailPageNigeria1Widget(
+                            country: 'nigeria',
+                          ),
                         ),
                       );
                     },

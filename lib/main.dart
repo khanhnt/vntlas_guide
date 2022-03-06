@@ -7,8 +7,8 @@ import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/internationalization.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'home/home_widget.dart';
-import 'list_all/list_all_widget.dart';
 import 'grid_all/grid_all_widget.dart';
+import 'list_all/list_all_widget.dart';
 import 'main/main_widget.dart';
 
 void main() async {
@@ -84,8 +84,8 @@ class _NavBarPageState extends State<NavBarPage> {
   Widget build(BuildContext context) {
     final tabs = {
       'Home': HomeWidget(),
-      'ListAll': ListAllWidget(),
       'GridAll': GridAllWidget(),
+      'ListAll': ListAllWidget(),
       'Main': MainWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPage);
@@ -112,22 +112,22 @@ class _NavBarPageState extends State<NavBarPage> {
             tooltip: '',
           ),
           BottomNavigationBarItem(
-            icon: FaIcon(
-              FontAwesomeIcons.list,
-              size: 24,
-            ),
-            label: FFLocalizations.of(context).getText(
-              'v26lgb95' /* Danh sách */,
-            ),
-            tooltip: '',
-          ),
-          BottomNavigationBarItem(
             icon: Icon(
               Icons.copyright,
               size: 24,
             ),
             label: FFLocalizations.of(context).getText(
               'vxfyi6bn' /* Bản quyền */,
+            ),
+            tooltip: '',
+          ),
+          BottomNavigationBarItem(
+            icon: FaIcon(
+              FontAwesomeIcons.list,
+              size: 24,
+            ),
+            label: FFLocalizations.of(context).getText(
+              'v26lgb95' /* Danh sách */,
             ),
             tooltip: '',
           ),

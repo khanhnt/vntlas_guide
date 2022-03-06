@@ -8,7 +8,12 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class DetailPageCongo1Widget extends StatefulWidget {
-  const DetailPageCongo1Widget({Key key}) : super(key: key);
+  const DetailPageCongo1Widget({
+    Key key,
+    this.country,
+  }) : super(key: key);
+
+  final String country;
 
   @override
   _DetailPageCongo1WidgetState createState() => _DetailPageCongo1WidgetState();
@@ -56,22 +61,8 @@ class _DetailPageCongo1WidgetState extends State<DetailPageCongo1Widget> {
                             color: Color(0xFFDBE2E7),
                           ),
                         ),
-                        child: Container(
-                          width: MediaQuery.of(context).size.width,
-                          height: 140,
-                          decoration: BoxDecoration(
-                            color:
-                                FlutterFlowTheme.of(context).primaryBackground,
-                            image: DecorationImage(
-                              fit: BoxFit.cover,
-                              image: Image.asset(
-                                'assets/images/appbar_background.jpg',
-                              ).image,
-                            ),
-                            border: Border.all(
-                              color: Color(0xFFDBE2E7),
-                            ),
-                          ),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
                             mainAxisAlignment: MainAxisAlignment.end,
@@ -93,7 +84,7 @@ class _DetailPageCongo1WidgetState extends State<DetailPageCongo1Widget> {
                                             },
                                             text: FFLocalizations.of(context)
                                                 .getText(
-                                              'bosnefc0' /*  */,
+                                              'jh1v52zn' /* Quay lại */,
                                             ),
                                             icon: Icon(
                                               Icons.arrow_back,
@@ -119,39 +110,6 @@ class _DetailPageCongo1WidgetState extends State<DetailPageCongo1Widget> {
                                             ),
                                           ),
                                         ],
-                                      ),
-                                    ),
-                                    InkWell(
-                                      onTap: () async {
-                                        setAppLanguage(context, 'en');
-                                      },
-                                      child: ClipRRect(
-                                        borderRadius: BorderRadius.circular(10),
-                                        child: Image.asset(
-                                          'assets/images/en.png',
-                                          width: 40,
-                                          height: 30,
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 0, 10, 0),
-                                      child: InkWell(
-                                        onTap: () async {
-                                          setAppLanguage(context, 'vi');
-                                        },
-                                        child: ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(10),
-                                          child: Image.asset(
-                                            'assets/images/vi.png',
-                                            width: 40,
-                                            height: 30,
-                                            fit: BoxFit.cover,
-                                          ),
-                                        ),
                                       ),
                                     ),
                                   ],
@@ -196,7 +154,7 @@ class _DetailPageCongo1WidgetState extends State<DetailPageCongo1Widget> {
                                                 labelText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  'mnyofn41' /* Tìm nước... */,
+                                                  'f4qemjt9' /* Tìm nước... */,
                                                 ),
                                                 labelStyle: FlutterFlowTheme.of(
                                                         context)
@@ -211,7 +169,7 @@ class _DetailPageCongo1WidgetState extends State<DetailPageCongo1Widget> {
                                                 hintText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  '1nuu569n' /* Tìm nước... */,
+                                                  '16vdekh6' /* Tìm nước... */,
                                                 ),
                                                 hintStyle: FlutterFlowTheme.of(
                                                         context)
