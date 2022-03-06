@@ -57,10 +57,24 @@ class _DetailPageAngola2WidgetState extends State<DetailPageAngola2Widget> {
                         color: Color(0xFFDBE2E7),
                       ),
                     ),
-                    child: Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 34, 0, 0),
+                    child: Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: 140,
+                      decoration: BoxDecoration(
+                        color: FlutterFlowTheme.of(context).primaryBackground,
+                        image: DecorationImage(
+                          fit: BoxFit.cover,
+                          image: Image.asset(
+                            'assets/images/appbar_background.jpg',
+                          ).image,
+                        ),
+                        border: Border.all(
+                          color: Color(0xFFDBE2E7),
+                        ),
+                      ),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           Padding(
                             padding:
@@ -79,7 +93,7 @@ class _DetailPageAngola2WidgetState extends State<DetailPageAngola2Widget> {
                                         },
                                         text:
                                             FFLocalizations.of(context).getText(
-                                          'a5kir5sq' /* Quay lại */,
+                                          '2okfiwj3' /* Back */,
                                         ),
                                         icon: Icon(
                                           Icons.arrow_back,
@@ -96,6 +110,7 @@ class _DetailPageAngola2WidgetState extends State<DetailPageAngola2Widget> {
                                                   .override(
                                                     fontFamily: 'Poppins',
                                                     color: Color(0xFFF1F8E9),
+                                                    fontSize: 14,
                                                   ),
                                           borderSide: BorderSide(
                                             color: Color(0xFFF1F8E9),
@@ -176,7 +191,7 @@ class _DetailPageAngola2WidgetState extends State<DetailPageAngola2Widget> {
                                             labelText:
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                              'zga5a3l9' /* Tìm nước... */,
+                                              '69xo7x3z' /* Tìm nước... */,
                                             ),
                                             labelStyle:
                                                 FlutterFlowTheme.of(context)
@@ -191,7 +206,7 @@ class _DetailPageAngola2WidgetState extends State<DetailPageAngola2Widget> {
                                             hintText:
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                              'cgte349q' /* Tìm nước... */,
+                                              'n3az2tot' /* Tìm nước... */,
                                             ),
                                             hintStyle:
                                                 FlutterFlowTheme.of(context)

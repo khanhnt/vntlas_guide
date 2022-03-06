@@ -45,7 +45,6 @@ class _DetailPageCameroon1WidgetState extends State<DetailPageCameroon1Widget> {
                     children: [
                       Container(
                         width: MediaQuery.of(context).size.width,
-                        height: 140,
                         decoration: BoxDecoration(
                           color: FlutterFlowTheme.of(context).primaryBackground,
                           image: DecorationImage(
@@ -58,10 +57,25 @@ class _DetailPageCameroon1WidgetState extends State<DetailPageCameroon1Widget> {
                             color: Color(0xFFDBE2E7),
                           ),
                         ),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 34, 0, 0),
+                        child: Container(
+                          width: MediaQuery.of(context).size.width,
+                          height: 140,
+                          decoration: BoxDecoration(
+                            color:
+                                FlutterFlowTheme.of(context).primaryBackground,
+                            image: DecorationImage(
+                              fit: BoxFit.cover,
+                              image: Image.asset(
+                                'assets/images/appbar_background.jpg',
+                              ).image,
+                            ),
+                            border: Border.all(
+                              color: Color(0xFFDBE2E7),
+                            ),
+                          ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
+                            mainAxisAlignment: MainAxisAlignment.end,
                             children: [
                               Padding(
                                 padding:
@@ -80,32 +94,29 @@ class _DetailPageCameroon1WidgetState extends State<DetailPageCameroon1Widget> {
                                             },
                                             text: FFLocalizations.of(context)
                                                 .getText(
-                                              'kje1gnbn' /* Back */,
+                                              'afflidzg' /*  */,
                                             ),
                                             icon: Icon(
                                               Icons.arrow_back,
                                               size: 15,
                                             ),
                                             options: FFButtonOptions(
-                                              width: 100,
-                                              height: 35,
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryColor,
-                                              textStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .subtitle2
-                                                      .override(
-                                                        fontFamily: 'Poppins',
-                                                        color:
-                                                            Color(0xFFF1F8E9),
-                                                        fontSize: 14,
-                                                      ),
+                                              width: 80,
+                                              height: 30,
+                                              color: Color(0xFF1E7C23),
+                                              textStyle: FlutterFlowTheme.of(
+                                                      context)
+                                                  .subtitle2
+                                                  .override(
+                                                    fontFamily: 'Poppins',
+                                                    color: Color(0xFFF1F8E9),
+                                                    fontSize: 14,
+                                                    fontWeight: FontWeight.w100,
+                                                  ),
                                               borderSide: BorderSide(
                                                 color: Color(0xFFF1F8E9),
-                                                width: 1,
                                               ),
-                                              borderRadius: 12,
+                                              borderRadius: 10,
                                             ),
                                           ),
                                         ],
@@ -116,7 +127,7 @@ class _DetailPageCameroon1WidgetState extends State<DetailPageCameroon1Widget> {
                                         setAppLanguage(context, 'en');
                                       },
                                       child: ClipRRect(
-                                        borderRadius: BorderRadius.circular(0),
+                                        borderRadius: BorderRadius.circular(10),
                                         child: Image.asset(
                                           'assets/images/en.png',
                                           width: 40,
@@ -132,11 +143,15 @@ class _DetailPageCameroon1WidgetState extends State<DetailPageCameroon1Widget> {
                                         onTap: () async {
                                           setAppLanguage(context, 'vi');
                                         },
-                                        child: Image.asset(
-                                          'assets/images/vi.png',
-                                          width: 40,
-                                          height: 30,
-                                          fit: BoxFit.cover,
+                                        child: ClipRRect(
+                                          borderRadius:
+                                              BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            'assets/images/vi.png',
+                                            width: 40,
+                                            height: 30,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
                                     ),
@@ -182,7 +197,7 @@ class _DetailPageCameroon1WidgetState extends State<DetailPageCameroon1Widget> {
                                                 labelText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  'j8lg4c49' /* Tìm nước... */,
+                                                  'ox2c0ltg' /* Tìm nước... */,
                                                 ),
                                                 labelStyle: FlutterFlowTheme.of(
                                                         context)
@@ -197,7 +212,7 @@ class _DetailPageCameroon1WidgetState extends State<DetailPageCameroon1Widget> {
                                                 hintText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  'k950dmuf' /* Tìm nước... */,
+                                                  '8gybzusj' /* Tìm nước... */,
                                                 ),
                                                 hintStyle: FlutterFlowTheme.of(
                                                         context)
@@ -278,7 +293,7 @@ class _DetailPageCameroon1WidgetState extends State<DetailPageCameroon1Widget> {
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Column(
                               mainAxisSize: MainAxisSize.max,
@@ -301,7 +316,8 @@ class _DetailPageCameroon1WidgetState extends State<DetailPageCameroon1Widget> {
                               ],
                             ),
                             Column(
-                              mainAxisSize: MainAxisSize.max,
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.end,
                               children: [
                                 Align(
                                   alignment: AlignmentDirectional(0.19, -0.53),
@@ -309,7 +325,7 @@ class _DetailPageCameroon1WidgetState extends State<DetailPageCameroon1Widget> {
                                     'assets/images/pos_cameroon_w.png',
                                     width:
                                         MediaQuery.of(context).size.width * 0.6,
-                                    height: 100,
+                                    height: 110,
                                     fit: BoxFit.contain,
                                   ),
                                 ),

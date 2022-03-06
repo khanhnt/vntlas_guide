@@ -56,10 +56,25 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                             color: Color(0xFFDBE2E7),
                           ),
                         ),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 34, 0, 0),
+                        child: Container(
+                          width: MediaQuery.of(context).size.width,
+                          height: 140,
+                          decoration: BoxDecoration(
+                            color:
+                                FlutterFlowTheme.of(context).primaryBackground,
+                            image: DecorationImage(
+                              fit: BoxFit.cover,
+                              image: Image.asset(
+                                'assets/images/appbar_background.jpg',
+                              ).image,
+                            ),
+                            border: Border.all(
+                              color: Color(0xFFDBE2E7),
+                            ),
+                          ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
+                            mainAxisAlignment: MainAxisAlignment.end,
                             children: [
                               Padding(
                                 padding:
@@ -78,32 +93,29 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                                             },
                                             text: FFLocalizations.of(context)
                                                 .getText(
-                                              'ougzo3f3' /* Back */,
+                                              'wcyalibt' /*  */,
                                             ),
                                             icon: Icon(
                                               Icons.arrow_back,
                                               size: 15,
                                             ),
                                             options: FFButtonOptions(
-                                              width: 100,
-                                              height: 35,
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryColor,
-                                              textStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .subtitle2
-                                                      .override(
-                                                        fontFamily: 'Poppins',
-                                                        color:
-                                                            Color(0xFFF1F8E9),
-                                                        fontSize: 14,
-                                                      ),
+                                              width: 80,
+                                              height: 30,
+                                              color: Color(0xFF1E7C23),
+                                              textStyle: FlutterFlowTheme.of(
+                                                      context)
+                                                  .subtitle2
+                                                  .override(
+                                                    fontFamily: 'Poppins',
+                                                    color: Color(0xFFF1F8E9),
+                                                    fontSize: 14,
+                                                    fontWeight: FontWeight.w100,
+                                                  ),
                                               borderSide: BorderSide(
                                                 color: Color(0xFFF1F8E9),
-                                                width: 1,
                                               ),
-                                              borderRadius: 12,
+                                              borderRadius: 10,
                                             ),
                                           ),
                                         ],
@@ -114,7 +126,7 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                                         setAppLanguage(context, 'en');
                                       },
                                       child: ClipRRect(
-                                        borderRadius: BorderRadius.circular(0),
+                                        borderRadius: BorderRadius.circular(10),
                                         child: Image.asset(
                                           'assets/images/en.png',
                                           width: 40,
@@ -130,11 +142,15 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                                         onTap: () async {
                                           setAppLanguage(context, 'vi');
                                         },
-                                        child: Image.asset(
-                                          'assets/images/vi.png',
-                                          width: 40,
-                                          height: 30,
-                                          fit: BoxFit.cover,
+                                        child: ClipRRect(
+                                          borderRadius:
+                                              BorderRadius.circular(10),
+                                          child: Image.asset(
+                                            'assets/images/vi.png',
+                                            width: 40,
+                                            height: 30,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
                                     ),
@@ -180,7 +196,7 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                                                 labelText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  'whkswz65' /* Tìm nước... */,
+                                                  'kl8pg3j0' /* Tìm nước... */,
                                                 ),
                                                 labelStyle: FlutterFlowTheme.of(
                                                         context)
@@ -195,7 +211,7 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                                                 hintText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  'avw9rwu9' /* Tìm nước... */,
+                                                  'td2z07y1' /* Tìm nước... */,
                                                 ),
                                                 hintStyle: FlutterFlowTheme.of(
                                                         context)
@@ -276,7 +292,7 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Column(
                               mainAxisSize: MainAxisSize.max,
@@ -299,7 +315,8 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                               ],
                             ),
                             Column(
-                              mainAxisSize: MainAxisSize.max,
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.end,
                               children: [
                                 Align(
                                   alignment: AlignmentDirectional(0.19, -0.53),
@@ -307,7 +324,7 @@ class _DetailPageDRC1WidgetState extends State<DetailPageDRC1Widget> {
                                     'assets/images/pos_DRC_w.png',
                                     width:
                                         MediaQuery.of(context).size.width * 0.6,
-                                    height: 100,
+                                    height: 110,
                                     fit: BoxFit.contain,
                                   ),
                                 ),

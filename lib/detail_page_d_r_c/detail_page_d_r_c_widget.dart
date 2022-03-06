@@ -53,10 +53,24 @@ class _DetailPageDRCWidgetState extends State<DetailPageDRCWidget> {
                         color: Color(0xFFDBE2E7),
                       ),
                     ),
-                    child: Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 34, 0, 0),
+                    child: Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: 140,
+                      decoration: BoxDecoration(
+                        color: FlutterFlowTheme.of(context).primaryBackground,
+                        image: DecorationImage(
+                          fit: BoxFit.cover,
+                          image: Image.asset(
+                            'assets/images/appbar_background.jpg',
+                          ).image,
+                        ),
+                        border: Border.all(
+                          color: Color(0xFFDBE2E7),
+                        ),
+                      ),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           Padding(
                             padding:
@@ -75,29 +89,29 @@ class _DetailPageDRCWidgetState extends State<DetailPageDRCWidget> {
                                         },
                                         text:
                                             FFLocalizations.of(context).getText(
-                                          'gxi2n7a3' /* Quay lại */,
+                                          'bs1vyabx' /*  */,
                                         ),
                                         icon: Icon(
                                           Icons.arrow_back,
                                           size: 15,
                                         ),
                                         options: FFButtonOptions(
-                                          width: 100,
-                                          height: 35,
-                                          color: FlutterFlowTheme.of(context)
-                                              .primaryColor,
+                                          width: 80,
+                                          height: 30,
+                                          color: Color(0xFF1E7C23),
                                           textStyle:
                                               FlutterFlowTheme.of(context)
                                                   .subtitle2
                                                   .override(
                                                     fontFamily: 'Poppins',
                                                     color: Color(0xFFF1F8E9),
+                                                    fontSize: 14,
+                                                    fontWeight: FontWeight.w100,
                                                   ),
                                           borderSide: BorderSide(
                                             color: Color(0xFFF1F8E9),
-                                            width: 1,
                                           ),
-                                          borderRadius: 12,
+                                          borderRadius: 10,
                                         ),
                                       ),
                                     ],
@@ -108,7 +122,7 @@ class _DetailPageDRCWidgetState extends State<DetailPageDRCWidget> {
                                     setAppLanguage(context, 'en');
                                   },
                                   child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(0),
+                                    borderRadius: BorderRadius.circular(10),
                                     child: Image.asset(
                                       'assets/images/en.png',
                                       width: 40,
@@ -124,11 +138,14 @@ class _DetailPageDRCWidgetState extends State<DetailPageDRCWidget> {
                                     onTap: () async {
                                       setAppLanguage(context, 'vi');
                                     },
-                                    child: Image.asset(
-                                      'assets/images/vi.png',
-                                      width: 40,
-                                      height: 30,
-                                      fit: BoxFit.cover,
+                                    child: ClipRRect(
+                                      borderRadius: BorderRadius.circular(10),
+                                      child: Image.asset(
+                                        'assets/images/vi.png',
+                                        width: 40,
+                                        height: 30,
+                                        fit: BoxFit.cover,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -172,7 +189,7 @@ class _DetailPageDRCWidgetState extends State<DetailPageDRCWidget> {
                                             labelText:
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                              'ayra427r' /* Tìm nước... */,
+                                              '80cyke4t' /* Tìm nước... */,
                                             ),
                                             labelStyle:
                                                 FlutterFlowTheme.of(context)
@@ -187,7 +204,7 @@ class _DetailPageDRCWidgetState extends State<DetailPageDRCWidget> {
                                             hintText:
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                              '4uh3ywpg' /* Tìm nước... */,
+                                              'bdhwvk53' /* Tìm nước... */,
                                             ),
                                             hintStyle:
                                                 FlutterFlowTheme.of(context)
