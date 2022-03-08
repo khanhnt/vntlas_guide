@@ -95,7 +95,8 @@ class _DetailPageCameroonWidgetState extends State<DetailPageCameroonWidget> {
                                                     fontFamily: 'Poppins',
                                                     color: Color(0xFFF1F8E9),
                                                     fontSize: 14,
-                                                    fontWeight: FontWeight.w100,
+                                                    fontWeight:
+                                                        FontWeight.normal,
                                                   ),
                                           borderSide: BorderSide(
                                             color: Color(0xFFF1F8E9),

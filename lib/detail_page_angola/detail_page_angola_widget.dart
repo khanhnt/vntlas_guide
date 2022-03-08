@@ -109,10 +109,10 @@ class _DetailPageAngolaWidgetState extends State<DetailPageAngolaWidget> {
                                                     .subtitle2
                                                     .override(
                                                       fontFamily: 'Poppins',
-                                                      color: Color(0xFFF1F8E9),
+                                                      color: Colors.white,
                                                       fontSize: 14,
                                                       fontWeight:
-                                                          FontWeight.w100,
+                                                          FontWeight.normal,
                                                     ),
                                             borderSide: BorderSide(
                                               color: Color(0xFFF1F8E9),

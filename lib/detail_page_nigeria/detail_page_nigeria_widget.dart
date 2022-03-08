@@ -110,7 +110,7 @@ class _DetailPageNigeriaWidgetState extends State<DetailPageNigeriaWidget> {
                                                       color: Color(0xFFF1F8E9),
                                                       fontSize: 14,
                                                       fontWeight:
-                                                          FontWeight.w100,
+                                                          FontWeight.normal,
                                                     ),
                                             borderSide: BorderSide(
                                               color: Color(0xFFF1F8E9),

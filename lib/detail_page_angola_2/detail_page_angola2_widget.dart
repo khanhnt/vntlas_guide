@@ -113,7 +113,7 @@ class _DetailPageAngola2WidgetState extends State<DetailPageAngola2Widget> {
                                                       color: Color(0xFFF1F8E9),
                                                       fontSize: 14,
                                                       fontWeight:
-                                                          FontWeight.w100,
+                                                          FontWeight.normal,
                                                     ),
                                             borderSide: BorderSide(
                                               color: Color(0xFFF1F8E9),
