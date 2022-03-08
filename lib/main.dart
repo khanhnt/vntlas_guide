@@ -9,7 +9,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'home/home_widget.dart';
 import 'grid_all/grid_all_widget.dart';
 import 'list_all/list_all_widget.dart';
-import 'main/main_widget.dart';
+import 'list_all_1/list_all1_widget.dart';
+import 'contact/contact_widget.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -86,7 +87,8 @@ class _NavBarPageState extends State<NavBarPage> {
       'Home': HomeWidget(),
       'GridAll': GridAllWidget(),
       'ListAll': ListAllWidget(),
-      'Main': MainWidget(),
+      'ListAll_1': ListAll1Widget(),
+      'Contact': ContactWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPage);
     return Scaffold(
@@ -94,8 +96,8 @@ class _NavBarPageState extends State<NavBarPage> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: currentIndex,
         onTap: (i) => setState(() => _currentPage = tabs.keys.toList()[i]),
-        backgroundColor: Color(0xFF8BC34A),
-        selectedItemColor: FlutterFlowTheme.of(context).primaryColor,
+        backgroundColor: Color(0xFFF1F8E9),
+        selectedItemColor: Color(0xFF1E7C23),
         unselectedItemColor: Color(0x8A000000),
         showSelectedLabels: true,
         showUnselectedLabels: true,
@@ -112,12 +114,12 @@ class _NavBarPageState extends State<NavBarPage> {
             tooltip: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(
-              Icons.copyright,
+            icon: FaIcon(
+              FontAwesomeIcons.list,
               size: 24,
             ),
             label: FFLocalizations.of(context).getText(
-              'vxfyi6bn' /* Bản quyền */,
+              'vxfyi6bn' /* Danh sách */,
             ),
             tooltip: '',
           ),
@@ -132,12 +134,22 @@ class _NavBarPageState extends State<NavBarPage> {
             tooltip: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(
-              Icons.contact_mail_sharp,
+            icon: FaIcon(
+              FontAwesomeIcons.list,
               size: 24,
             ),
             label: FFLocalizations.of(context).getText(
-              '3jhdq7k1' /* Liên hệ */,
+              '9t7pn54a' /* Danh sách */,
+            ),
+            tooltip: '',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.contact_phone,
+              size: 24,
+            ),
+            label: FFLocalizations.of(context).getText(
+              'kqa2ie84' /* Liên hệ */,
             ),
             tooltip: '',
           )

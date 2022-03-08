@@ -1,6 +1,6 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
-import '../welcome_home/welcome_home_widget.dart';
+import '../welcome_home_1/welcome_home1_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -21,11 +21,12 @@ class _HomeWidgetState extends State<HomeWidget> {
     super.initState();
     // On page load action.
     SchedulerBinding.instance.addPostFrameCallback((_) async {
-      await Navigator.push(
+      await Navigator.pushAndRemoveUntil(
         context,
         MaterialPageRoute(
-          builder: (context) => WelcomeHomeWidget(),
+          builder: (context) => WelcomeHome1Widget(),
         ),
+        (r) => false,
       );
     });
   }
